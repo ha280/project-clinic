@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	   <link rel="stylesheet" type="text/css" href="css/style.css">
+	   <script type="text/javascript" src="file:///F:/cs/html/bookstrap/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+	   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<title>ask dr gupta</title>
+	</head>
+	<body class="contain">
+		<div class="alert alert-dismissible popup-3 mx-4">
+			<button type="button" class="close "  style="color: white;" data-dismiss="alert">&times;</button>
+			<a href="#" class="text-decoration-none popup">
+				<h2 class="h2 font-m font-weight-bold" style="color: white;">Questions ?</h2>
+				<span class="font-s font-italic w-100 my-2" style="font-weight: 300; color: white;">Click here to Chat with us</span>
+			</a>
+			
+		</div>
+		<a href="#" class="popup-1 mx-3 py-2 pl-2 border-bottom-0 text-decoration-none ">
+			<svg class="popup_icon float-left">
+				<use xlink:href="css/img/message.svg#icon-message"></use>
+			</svg>
+			<h3 class="h3 float-right font-m mr-3" style="color: white;"><span style="font-weight: bold; color: white;">Online</span> - we are online</h3>
+		</a>
+		<div class="popup-2 mx-4 bg-light" id="popup-2">
+			<div class=" bg-primary h-5">
+				<h3 class="h3 float-right">
+					<a href="">
+						<svg class="popup_icon-2 ">
+							<use xlink:href="css/img/message.svg#icon-call_made"></use>
+						</svg>
+					</a>
+					<a href="#" class="mx-4 ">
+						<svg class="popup_icon-2  ">
+							<use xlink:href="css/img/message.svg#icon-remove"></use>
+						</svg>
+					</a>
+					
+				</h3>
+			</div>
+			<div class="bg-light p-2">
+				<h3 class="h3 text-primary font-weight-bold font-m" >
+					Chat With a Doctor Now!
+				</h3>
+				<p class="font-s">Ask any queries regarding your diseases...</p>
+			</div>
+			<div class="float-right mr-4 ">
+				<a href="#">
+					<svg class="popup_icon-3  ">
+						<use xlink:href="css/img/message.svg#icon-thumb_down_off_alt"></use>
+					</svg>
+				</a>
+				<a href="#">
+					<svg class="popup_icon-4  ">
+						<use xlink:href="css/img/message.svg#icon-thumb_up_off_alt"></use>
+					</svg>
+				</a>
+				
+			</div>
+		</div>		
+		<header class="header d-block">
+			<div class="head__img py-1 ml-2 my-0">
+				<img src="css/img/1d2f053732e5bf726a73e5061749b1f9.jpg" class="header__logo-img">
+			</div>
+			<ul class="list-unstyled  btn-group-verticle px-0 my-0 ">
+				<li class="py-3 px-1 ml-1 my-3 ">
+					<button type="button" class="btn btn-block py-3 font-m bg-green-light px-1 " >ask Dr.gupta</button>
+				</li>
+				<li class="dropdown dropright py-3 px-1 ml-1 my-3">
+				<button type="button" class=" btn btn-block py-3 bg-green-light font-m px-1 " data-toggle="dropdown">Patient Sign in</button>
+					<div id="patientsignin" class=" dropdown-menu pb-4 patient__signin icon__cross mr-4">
+								<button type="button" class="close mr-3" data-dismiss="alert">&times;</button>
+						<form name="loginForm" method="post" action="./" id="loginForm" class="">
+						<div>
+							<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="">
+						</div>	
+						<div>	
+							<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+							<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="">
+						</div>
+						<div class="text-center m-b-md custom-login">
+						</div>
+						<div class="col-md-5 col-lg-5 col-sm-12 col-xs-12 pb-2 text-center float-left px-0 mt-3">
+							<img src="css/img/login-icon.png" class="loginimg">
+							<br>
+							<h3 class="text-center h1">Patient Login</h3>
+						</div>
+						<div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 form-group float-right px-0 py-2 mt-3">	
+							<div class="form-group">
+								<input name="txtpinno" type="number" id="txtpinno" class="form-control" 
+									placeholder="PIN">
+								</div>
+								<div class="form-group my-4">
+									<input name="txtpassword" type="password" id="txtpassword" 
+										class="form-control" placeholder="Password">
+								</div>
+								<div class="col-md-6 col-lg-6 my-3">
+									<a class="font-s" href="#" style="text-decoration:underline ">Forgot Password </a>
+								</div>
+								<div class="col-md-6 col-lg-6">
+									<input type="submit" name="loginbtn" value="Login" id="loginbtn" 
+										class="btn btn-success btn-block loginbtn">
+								</div>
+							</div>								  
+						</form>									
+					</div>
+				  </li>
+				<li class="dropdown dropright header__li px-1 ml-1 my-3 "> 
+				  <button type="button " class="btn btn-block  py-3 header__nav font-m px-1 " data-toggle="dropdown">About Us  </button>    
+				  <div class="dropdown-menu dropdown-menu-2 font-sfont-s">
+					<a  href="#" class="dropdown-item w-75 my-1">Home</a>
+					<a  href="#" class="dropdown-item w-75 my-1">Dr. neeraj gupta</a>
+					<a  href="#" class="dropdown-item w-75 my-1">Homeopathy</a>
+					<a  href="#" class="dropdown-item w-75 my-1 ">Homeopathic medicine</a>
+					<a  href="#" class="dropdown-item w-75 my-1 ">Our mission</a>
+				  </div>
+				</li>
+				<li class="dropdown dropright header__li px-1 ml-1 my-3"> 
+					<button type="button " class="btn btn-block  py-3 header__nav font-m px-1 " data-toggle="dropdown">Homeopathy  </button>    
+					<div class="dropdown-menu dropdown-menu-2 font-s">
+					  <a  href="#" class="dropdown-item w-75 my-1 ">What is homeopathy?</a>
+					  <a  href="#" class="dropdown-item w-75 my-1">What homeopathy is no</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">What your doctor wont <br>tell you about homeopathy?</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Facts and myths</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Benefits of homeopathy</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Sources of Medicines</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Homeopathic Remedies (types)</a>
+					  <a  href="#" class="dropdown-item w-75 my-1">How to find a good homeopath?</a>
+					</div>
+				  </li>
+				  <li class="dropdown dropright header__li px-1 ml-1 my-3"> 
+					<button type="button " class="btn btn-block py-3 header__nav font-m px-1 " data-toggle="dropdown">Dr. Gupta </button>    
+					<div class="dropdown-menu dropdown-menu-2 font-s">
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Home</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Dr. neeraj gupta</a>
+					  <a  href="#" class="dropdown-item w-75 my-1">blogs</a>
+					  <a  href="#" class="dropdown-item w-75 my-1">Photo gallry</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">education</a>
+					</div>
+				  </li>
+				  <li class="dropdown dropright header__li px-1 ml-1 my-3"> 
+					<button type="button " class="btn btn-block py-3 header__nav font-m px-1" data-toggle="dropdown">Disease</button>    
+					<div class="dropdown-menu dropdown-menu-2 font-s">
+					  <a  href="#" class="dropdown-item w-75 my-1 ">A to Z Diseases</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Tests and tools</a>
+					  <a  href="#" class="dropdown-item w-75 my-1">Photos (Before-After)</a>
+					  <a  href="#" class="dropdown-item w-75 my-1">Videos (Patients)</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">FAQ on various diseases</a>
+					</div>
+				  </li>
+				  <li class="dropdown dropright header__li px-1 ml-1 my-3"> 
+					<button type="button " class="btn btn-block py-3 header__nav font-m px-1 " data-toggle="dropdown">Treatment</button>    
+					<div class="dropdown-menu dropdown-menu-2 font-s">
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Homeopathy Treatment</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Treatment Online</a>
+					  <a  href="#" class="dropdown-item w-75 my-1">Case Studies (All)</a>
+					  <a  href="#" class="dropdown-item w-75 my-1">Photos (Before-After)</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">FAQ about Online treatment</a>
+					</div>
+				  </li>
+				  <li class="dropdown dropright header__li px-1 ml-1 my-3"> 
+					<button type="button " class="btn btn-block  py-3 header__nav font-m px-1" data-toggle="dropdown">Contact Us</button>    
+					<div class="dropdown-menu dropdown-menu-2 font-s">
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Contact Us</a>
+					  <a  href="#" class="dropdown-item w-75 my-1 ">Patient's Login</a>
+					  <a  href="#" class="dropdown-item w-75 my-1">Telephonic Consultation</a>
+				 </li>
+			</ul>				
+		</header>
+		<section class="section-intro">
+			<div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+
+				<!-- Indicators -->
+				<ul class="carousel-indicators">
+				  <li data-target="#demo" data-slide-to="0" class="active"></li>
+				  <li data-target="#demo" data-slide-to="1" ></li>
+				  <li data-target="#demo" data-slide-to="2"></li>
+				</ul>
+			  
+				<!-- The slideshow -->
+				<div class="carousel-inner">
+				  <div class="carousel-item intro intro__1 active">
+					<img src="" class="" alt="" >
+					<div class="caption__1 text-left carousel-caption  ">
+						<h2 class="heading__secoundry">Homeopathy is also strongly indicated for many uncommon, difficult diseases such as:</h2>
+						<p class="paragraph">Hydrastis adenitis, Epidermolysis Bullosa, Hailey Hailey Disease, Prurigo Nodularis, Urticaria Pigmentosa, Carpel Tunnel Syndrome, Pulmonary Fibrosis (ILD), etc.</p>
+						<a class="btn btn-outline-light font-m bor-r-100p " href="#">Read more...</a>
+					</div>
+				  </div>
+				  <div class="carousel-item intro intro__2">
+					<img src="" class=" " alt="" >
+					<div class="caption__1 text-left carousel-caption ">
+						<h2 class="heading__secoundry">”Skin diseases emerge from inside which need to be treated from inside; and not from outside by lotions.”</h2>
+						<a class="btn btn-outline-light font-m bor-r-100p " href="#">Read more...</a>
+					</div>
+				  </div>
+				  <div class="carousel-item intro intro__3">
+					<img src="" class="" alt="">
+					<div class="caption__1 text-left carousel-caption ">
+						<h2 class="heading__secoundry">Homeopathy is also strongly indicated for many uncommon, difficult diseases such as:</h2>
+						<p class="paragraph">Hydrastis adenitis, Epidermolysis Bullosa, Hailey Hailey Disease, Prurigo Nodularis, Urticaria Pigmentosa, Carpel Tunnel Syndrome, Pulmonary Fibrosis (ILD), etc.</p>
+						<a class="btn btn-outline-light font-m bor-r-100p " href="#">Read more...</a>
+					</div>
+				  </div>
+				</div>
+			  
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				  <span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+				  <span class="carousel-control-next-icon"></span>
+				</a>
+			  
+			</div>		
+		</section>
+		<section class="section-ask">
+			<div class="ask-page">
+				<h1 class="heading__primary">Ask your question directly to Dr Gupta</h1>
+				<p class="paragraph-1">Send query for a genuine homeopathy opinion. We have answered over a million people.</p>
+			</div>
+			<div class="contact-form">
+			<form method="post" action="#" class="form">
+                <div class="">
+                    <div class="">
+                    	<label for="e-mail id"></label>    
+                    </div>
+                    <div class="">
+                        <input type="text" name="email id" id="email id" placeholder=" your email" class="form__email">
+                    </div>
+                   	<div class="">
+						<label for="subject"></label>
+					</div>
+					<div class="">
+						<input type="text" name="subject" placeholder="  Please write about your disease in brief" class="form__brief u-margin-bottom-small" ></input >
+					</div>
+                </div>
+			</form>
+				<div class="text-center px-4 py-2">
+					<a class="btn btn-primary  font-b" href="#">Get Opinion</a>
+				</div>
+			</div>
+		</section>
+		<section class="section-disease_search pb-3">	
+			<h1 class="heading__tertiary disease__heading text-center">Dr Gupta's expert and genuine opinion on over 200 disease conditions,
+				based on her vast experience of over 20+ years.</h1>
+			<div class="disease__nav">
+				<h4 class="heading__quatrine ">Find Dr. Gupta's opinion on your ailment.</h4>
+					<ul class="disease-alpha">
+						<li><a href="#" class="btn__alppha">A</a></li>
+						<li><a href="#" class="btn__alppha">B</a></li>
+						<li><a href="#" class="btn__alppha">C</a></li>
+						<li><a href="#" class="btn__alppha">D</a></li>
+						<li><a href="#" class="btn__alppha">E</a></li>
+						<li><a href="#" class="btn__alppha">F</a></li>
+						<li><a href="#" class="btn__alppha">G</a></li>
+						<li><a href="#" class="btn__alppha">H</a></li>
+						<li><a href="#" class="btn__alppha">I</a></li>
+						<li><a href="#" class="btn__alppha">J</a></li>
+						<li><a href="#" class="btn__alppha">K</a></li>
+						<li><a href="#" class="btn__alppha">L</a></li>
+					</ul>
+					<ul class="disease-alpha">
+						<li><a href="#" class="btn__alppha">M</a></li>
+						<li><a href="#" class="btn__alppha">N</a></li>
+						<li><a href="#" class="btn__alppha">O</a></li>
+						<li><a href="#" class="btn__alppha">P</a></li>
+						<li><a href="#" class="btn__alppha">Q</a></li>
+						<li><a href="#" class="btn__alppha">R</a></li>
+						<li><a href="#" class="btn__alppha">S</a></li>
+						<li><a href="#" class="btn__alppha">T</a></li>
+						<li><a href="#" class="btn__alppha">U</a></li>
+						<li><a href="#" class="btn__alppha">V</a></li>
+						<li><a href="#" class="btn__alppha">W</a></li>
+						<li><a href="#" class="btn__alppha">X</a></li>
+					</ul>
+					<ul class="disease-alpha">
+						<li><a href="#" class="btn__alppha">Y</a></li>
+						<li><a href="#" class="btn__alppha">Z</a></li>
+					</ul>
+					<div class="foralldisease">
+						<a href="#" class="btn__forall">View all A to Z diseases</a>
+					</div>
+				</div>
+				<div class="disease__body">
+					<a href="#" class="Clickon">Click On</a> the body part if you are not sure of your disease name
+					<a href="#" class="Clickon"><img src="css/img/00.png" alt="" class="whole__body"></a>
+				</div>
+			</section>
+		<section class="section__curibility">
+			<div class="curibility__head">
+				<h1 class="heading__primary">Curability test</h1>
+				<p class="paragraph-1">Find out the chances of cure of your disease using homeopathy. These tests are to suggest a possibility of help with homeopathy. After personally answering queries from thousands of patients from across the globe, Dr Rajesh Shah has developed this Test series. You can use for free! They are copyright protect.</p>
+			</div>
+			<div class="curability__test">
+				<div class="curability__img">
+					img
+				</div>
+				<div class="curability__exp">
+					<ul class="curability__exp-1">
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Alopecia Areata</a>
+						</li>
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Child Asthma</a>
+						</li>
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Hepatitis C</a>
+						</li>
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Psoriasis</a>
+						</li>
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Urticaria</a>
+						</li>
+					</ul>
+					<ul class="curability__exp-1">
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Ankylosing Spondylitis</a>
+						</li>
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Frequent Colds</a>
+						</li>
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Irritable Bowel Syndrome</a>
+						</li>
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Trigeminal Neuralgia</a>
+						</li>
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Vitiligo</a>
+						</li>
+					</ul>
+					<ul class="curability__exp-1">
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Asthma</a>
+						</li>
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Hair Fall</a>
+						</li>
+						<li><a href="#" class="exp__1 btn">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Lichen Planus</a>
+						</li>
+						<li><a href="#" class="btn exp__1">
+							<svg class="curability__icon">
+								<use xlink:href="css/img/disease.svg#icon-done_all"></use>
+							</svg>
+							Ulcerative Colitis</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+				<a href="#" class="btn curibility__btn">Read all about Curability test</a>
+			
+		</section>
+<!--	<section class="section__online__treatment">
+			<div class="online__head">
+			<h1 class="heading__primary">Order Treatment Online</h1>
+			<h3 class="heading__tertiary">Get treated by the pioneer of Online treatment, who was first to start Online Medical
+				 practice in 1995. In a few clicks from now, you can get started with the journey to 
+				 recovery.
+			</h3>
+			<div class="online__btn u-center-text">
+				<a href="#" class="online__treatment">Learn More...</a>
+			</div>
+			<div class="treatment u-center-text">
+			<img src="css/img/order-treatment-label.png" alt="" class="online__img">
+			</div>
+			</div>
+		</section>
+	-->
+		<section class="section__case mt-4">
+		<div class="case__patient u-flex-row">
+			<div class="case__study">
+				<div class="case__head-1">
+					<h3 class="heading__tertiary">LIFE FORCE CASE STUDIES</h3>
+					<p class="paragraph-2">Patient's Case studies: Over 2000 case-studies of various diseases.
+						Please Select Diseases from following dropdown
+						
+					</p>
+				</div>
+				<div class="case__btn u-flex-row ml-5">
+					<div class="vc_col-sm-6">
+						<select name="ddlHomeDiseasesCaseStudy" id="ddlHomeDiseasesCaseStudy" class="home-select py-3 ">
+							<option value="casestudies-recurrent-boils.aspx">Abscess/Boils</option>
+							<option value="">Acid Peptic Disease</option>
+							<option value="">Acidity</option>
+							<option value="casestudies.aspx">Acne</option>
+							<option value="casestudies.aspx">Acne Rosacea</option>
+							<option value="app/tonsillitis/tonsillitis-casestudies.aspx">Adenoids</option>
+							<option value="casestudies.aspx">ADHD</option>
+							<option value="">Allergic Rhinitis</option>
+							<option value="">Allergy</option>
+							<option value="app/alopecia-areata/alopecia-areata-casestudies.aspx">Alopecia Areata</option>
+							<option value="app/ankylosing-spondylitis/ankylosing-spondylitis-casestudies.aspx">Ankylosing Spondylitis</option>
+							<option value="">Antisynthetase Syndrome</option>
+							<option value="app/anxiety-neurosis/anxiety-neurosis-casestudies.aspx">Anxiety Neurosis</option>
+							<option value="casestudies.aspx">Aplastic Anemia</option>
+							<option value="casestudies.aspx">Appendicitis</option>
+							<option value="">Apthous Ulcer</option>
+							<option value="">Arthritis</option>
+							<option value="app/Asthma/asthma-casestudies.aspx">Asthma</option>
+							<option value="">Asthmatic Bronchitis</option>
+							<option value="casestudies.aspx">Ataxia</option>
+							<option value="">Atopic Dermatitis</option>
+							<option value="casestudies.aspx">Autism</option>
+							<option value="casestudies.aspx">Backache</option>
+							<option value="casestudies.aspx">Bell's Palsy</option>
+							<option value="">Breast cancer</option>
+							<option value="casestudies.aspx">Bronchitis</option>
+							<option value="casestudies.aspx">Calcaneal Spur</option>
+							<option value="casestudies.aspx">Cancer</option>
+							<option value="">Candidiasis (Thrush)</option>
+							<option value="casestudies.aspx">Carbuncle</option>
+							<option value="casestudies.aspx">Carpal Tunnel Syndrome</option>
+							<option value="casestudies.aspx">Cellulitis</option>
+							<option value="app/cervical-spondylitis/cervical-spondylitis-casestudies.aspx">Cervical Spondylitis</option>
+							<option value="app/chalazion/chalazion-casestudies.aspx">Chalazion</option>
+							<option value="casestudies.aspx">Cheilitis</option>
+							<option value="app/asthmatic-bronchitis/asthmatic-bronchitis-casestudies.aspx">Child Asthma</option>
+							<option value="">Chronic Cold</option>
+							<option value="">Chronic Laryngitis</option>
+							<option value="casestudies.aspx">Chyluria</option>
+							<option value="">Coeliac Disease</option>
+							<option value="">Cold &amp; Cough</option>
+							<option value="">Conjunctivitis</option>
+							<option value="">Constipation</option>
+							<option value="">COPD</option>
+							<option value="casestudies.aspx">Corns Callosities</option>
+							<option value="">Cough</option>
+							<option value="casestudies.aspx">Crohns Disease</option>
+							<option value="Cyclic-Neutropenia-case-1.aspx">Cyclic Neutropenia</option>
+							<option value="">Cystitis</option>
+							<option value="casestudies.aspx">Depression</option>
+							<option value="">Dermatitis</option>
+							<option value="casestudies.aspx">Dermatomyositis</option>
+							<option value="">Diabetic Neuropathy</option>
+							<option value="">Down's Syndrome</option>
+							<option value="">Dry Eyes</option>
+							<option value="">Dysfunctional Uterine Bleeding</option>
+							<option value="">Dyslexia</option>
+							<option value="casestudies.aspx">Dysmenorrhoea</option>
+							<option value="app/eczema/eczema-casestudies.aspx">Eczema</option>
+							<option value="casestudies.aspx">Elephantiasis</option>
+							<option value="casestudies.aspx">Epidermolysis Bullosa</option>
+							<option value="">Epilepsy</option>
+							<option value="casestudies.aspx">Erectile Dysfunction</option>
+							<option value="casestudies.aspx">Fibroadenoma</option>
+							<option value="casestudies.aspx">Fibromyalgia</option>
+							<option value="app/fissure-in-ano/fissure-casestudies.aspx">Fissure-In-Ano</option>
+							<option value="">Fistula-In-Ano</option>
+							<option value="">Floaters - Eye</option>
+							<option value="app/frequent-colds/frequent-colds-casestudies.aspx">Frequent Colds</option>
+							<option value="">Frozen Shoulder</option>
+							<option value="casestudies.aspx">Fungal Infection</option>
+							<option value="">Gall bladder Stones</option>
+							<option value="">Gallstones</option>
+							<option value="casestudies.aspx">Gastritis</option>
+							<option value="">Gastroenteritis</option>
+							<option value="">General</option>
+							<option value="">Genital Warts</option>
+							<option value="app/gerd/gerd-casestudies.aspx">GERD</option>
+							<option value="">GERD treatment</option>
+							<option value="">Glaucoma</option>
+							<option value="casestudies.aspx">Gout</option>
+							<option value="casestudies.aspx">Granuloma Annulare</option>
+							<option value="casestudies.aspx">Guillain Barre Syndrome</option>
+							<option value="">Guillain-Barre Syndrome</option>
+							<option value="">H Pylori</option>
+							<option value="casestudies.aspx">H.I.V.</option>
+							<option value="casestudies.aspx">Hailey Hailey Disease</option>
+							<option value="app/hairfalling/hairloss-casestudies.aspx">Hair Fall</option>
+							<option value="">Hair Falling</option>
+							<option value="">Headache</option>
+							<option value="">Hepatitis B</option>
+							<option value="app/hepatitis-c/hepatitis-c-casestudies.aspx">Hepatitis C</option>
+							<option value="casestudies.aspx">Herpes</option>
+							<option value="casestudies.aspx">Herpes Zoster</option>
+							<option value="">Hidradenitis Suppurative</option>
+							<option value="">Hoarseness Of Voice</option>
+							<option value="">Hydradenitis Suppurativa</option>
+							<option value="">Hyperpigmentation</option>
+							<option value="casestudies.aspx">Hypertension</option>
+							<option value="">Hyperthyroidism</option>
+							<option value="">Hypothyroidism</option>
+							<option value="">Ichthyosis</option>
+							<option value="">Idiopathic Thrombocytopenic Purpura</option>
+							<option value="">Insomnia</option>
+							<option value="app/irritable-bowel-syndrome/ibs-casestudies.aspx">Irritable Bowel Syndrome</option>
+							<option value="">Joints Pain</option>
+							<option value="">Juvenile Rheumatoid Arthritis</option>
+							<option value="">Kidney Stone</option>
+							<option value="">Laryngitis</option>
+							<option value="">Leg Pain</option>
+							<option value="">Leucoderma</option>
+							<option value="">Leucorrhoea</option>
+							<option value="">Lichen Nitidus</option>
+							<option value="">Lichen Plano Pilaris</option>
+							<option value="app/lichen-planus/lichenplanus-casestudies.aspx">Lichen Planus</option>
+							<option value="">Lichen Planus Pigmentosa (Lpp)</option>
+							<option value="">Liver Cirrhosis</option>
+							<option value="casestudies.aspx">Lumbar Spondylitis</option>
+							<option value="casestudies.aspx">Mastoiditis</option>
+							<option value="">Memory Loss</option>
+							<option value="casestudies.aspx">Meniere's Disease</option>
+							<option value="">Menopausal Syndrome</option>
+							<option value="">Mental Retardation</option>
+							<option value="app/migraine/migraine-casestudies.aspx">Migraine</option>
+							<option value="">Migraine Treatment</option>
+							<option value="">Molluscum Contagiosa</option>
+							<option value="casestudies.aspx">Molluscum Contagiosum</option>
+							<option value="casestudies.aspx">Mouth Ulcers</option>
+							<option value="casestudies.aspx">Multiple Sclerosis</option>
+							<option value="casestudies.aspx">Multiple System Atrophy</option>
+							<option value="casestudies.aspx">Muscular Dystrophy</option>
+							<option value="casestudies.aspx">Myasthenia Gravis</option>
+							<option value="">Nasal Polyps</option>
+							<option value="app/nephrotic-syndrome/nephrotic-syndrome-casestudies.aspx">Nephrotic Syndrome</option>
+							<option value="">Neurofibromatosis</option>
+							<option value="">Nocturnal Enuresis</option>
+							<option value="casestudies.aspx">Non-Healing Ulcers</option>
+							<option value="">Non-Healing Wound</option>
+							<option value="">Orolingual Dystonia</option>
+							<option value="casestudies.aspx">Osteoarthritis</option>
+							<option value="">Parapsoriasis</option>
+							<option value="casestudies.aspx">PCOD</option>
+							<option value="">Pemphigus</option>
+							<option value="">Peptic Ulcer</option>
+							<option value="">Peripheral Neuropathy</option>
+							<option value="casestudies.aspx">Photodermatitis</option>
+							<option value="casestudies.aspx">Piebaldism</option>
+							<option value="">Piles</option>
+							<option value="">Pilonidal Sinus</option>
+							<option value="">Pityriasis Alba</option>
+							<option value="">Pityriasis Rosea (Pr)</option>
+							<option value="">Pityriasis Versicolor</option>
+							<option value="">Polyarthralgia</option>
+							<option value="casestudies.aspx">Polymyositis</option>
+							<option value="app/prostatitis/prostatitis-casestudies.aspx">Prostate Cancer</option>
+							<option value="">Prostate Enlargement</option>
+							<option value="app/prostatitis/prostatitis-casestudies.aspx">Prostatitis</option>
+							<option value="casestudies.aspx">Prurigo Nodularis</option>
+							<option value="app/psoriasis/psoriasis-casestudies.aspx">Psoriasis</option>
+							<option value="app/psoriatic-arthritis/psoriatic-arthritis-casestudies.aspx">Psoriatic Arthritis</option>
+							<option value="">Raynaud's Disease</option>
+							<option value="casestudies.aspx">Reactive Perforating Collangenosis</option>
+							<option value="">Recurrent Cough</option>
+							<option value="">Renal Calculus</option>
+							<option value="casestudies.aspx">Restless Leg Syndrome</option>
+							<option value="casestudies.aspx">Rheumatoid Arthritis</option>
+							<option value="">Schizophrenia</option>
+							<option value="">Sciatica</option>
+							<option value="casestudies.aspx">Scleroderma</option>
+							<option value="casestudies.aspx">Seborrhoeic Dermatitis</option>
+							<option value="casestudies.aspx">Sinusitis</option>
+							<option value="app/sleeplessness/sleeplessness-casestudies.aspx">Sleeplessness</option>
+							<option value="casestudies.aspx">Steven Johnsons Syndrome</option>
+							<option value="systemic-lupus-erythematosus.aspx">systemic lupus erythematosus</option>
+							<option value="casestudies.aspx">Tenia Corporis</option>
+							<option value="">Tennis Elbow</option>
+							<option value="">Tinea</option>
+							<option value="casestudies.aspx">Tinea Versicolor</option>
+							<option value="casestudies.aspx">Tinnitus</option>
+							<option value="app/tonsillitis/tonsillitis-casestudies.aspx">Tonsillitis</option>
+							<option value="">Tonsils</option>
+							<option value="app/trigeminalneuralgia/trigeminal-neuralgia-casestudies.aspx">Trigeminal Neuralgia</option>
+							<option value="app/ulcerative-colitis/ulcerative-colitis-casestudies.aspx">Ulcerative Colitis</option>
+							<option value="app/underactive-thyroid/thyroid-casestudies.aspx">Underactive Thyroid</option>
+							<option value="casestudies.aspx">Urinary Tract Infection</option>
+							<option value="app/urticaria/urticaria-casestudies.aspx">Urticaria</option>
+							<option value="">Uterine Fibroids</option>
+							<option value="casestudies.aspx">Uveitis</option>
+							<option value="">Varicose Ulcer</option>
+							<option value="casestudies.aspx">Varicose Veins</option>
+							<option value="">VASCULITIS</option>
+							<option value="casestudies.aspx">Verruca Plana</option>
+							<option value="casestudies.aspx">Vertigo</option>
+							<option value="app/vitiligo/vitiligo-casestudies.aspx">Vitiligo</option>
+							<option value="">Vitiligo (Book)</option>
+							<option value="casestudies.aspx">Vocal Cord Nodule</option>
+							<option value="casestudies.aspx">Warts</option>
+							<option value="casestudies.aspx">Writers Cramp (Dystonia)</option>
+							<option selected="selected" value="0">Select</option>
+			
+			</select>           
+					  </div>
+					<div class="case__studies__btn ">
+						<a href="#" class="btn btn__red-1">View Case Studies</a>
+					</div>
+				</div>
+			</div>
+			<div class="patient__say ml-5">
+				<div class="patient__head-1 ">
+				<h3 class="heading__tertiary">WHAT OUR PATIENTS SAY</h3>
+					<p class="paragraph-2">Some patients sharing their experiences at Life Force
+						Please Select Diseases from following dropdown
+					</p>
+				</div>
+				<div class="case__btn u-flex-row u-margin-left-small">
+					<div class="vc_col-sm-6">
+						<select name="ddlHomeDiseasesCaseStudy" id="ddlHomeDiseasesCaseStudy" class="py-3 home-select">
+							<option value="casestudies-recurrent-boils.aspx">Abscess/Boils</option>
+							<option value="">Acid Peptic Disease</option>
+							<option value="">Acidity</option>
+							<option value="casestudies.aspx">Acne</option>
+							<option value="casestudies.aspx">Acne Rosacea</option>
+							<option value="app/tonsillitis/tonsillitis-casestudies.aspx">Adenoids</option>
+							<option value="casestudies.aspx">ADHD</option>
+							<option value="">Allergic Rhinitis</option>
+							<option value="">Allergy</option>
+							<option value="app/alopecia-areata/alopecia-areata-casestudies.aspx">Alopecia Areata</option>
+							<option value="app/ankylosing-spondylitis/ankylosing-spondylitis-casestudies.aspx">Ankylosing Spondylitis</option>
+							<option value="">Antisynthetase Syndrome</option>
+							<option value="app/anxiety-neurosis/anxiety-neurosis-casestudies.aspx">Anxiety Neurosis</option>
+							<option value="casestudies.aspx">Aplastic Anemia</option>
+							<option value="casestudies.aspx">Appendicitis</option>
+							<option value="">Apthous Ulcer</option>
+							<option value="">Arthritis</option>
+							<option value="app/Asthma/asthma-casestudies.aspx">Asthma</option>
+							<option value="">Asthmatic Bronchitis</option>
+							<option value="casestudies.aspx">Ataxia</option>
+							<option value="">Atopic Dermatitis</option>
+							<option value="casestudies.aspx">Autism</option>
+							<option value="casestudies.aspx">Backache</option>
+							<option value="casestudies.aspx">Bell's Palsy</option>
+							<option value="">Breast cancer</option>
+							<option value="casestudies.aspx">Bronchitis</option>
+							<option value="casestudies.aspx">Calcaneal Spur</option>
+							<option value="casestudies.aspx">Cancer</option>
+							<option value="">Candidiasis (Thrush)</option>
+							<option value="casestudies.aspx">Carbuncle</option>
+							<option value="casestudies.aspx">Carpal Tunnel Syndrome</option>
+							<option value="casestudies.aspx">Cellulitis</option>
+							<option value="app/cervical-spondylitis/cervical-spondylitis-casestudies.aspx">Cervical Spondylitis</option>
+							<option value="app/chalazion/chalazion-casestudies.aspx">Chalazion</option>
+							<option value="casestudies.aspx">Cheilitis</option>
+							<option value="app/asthmatic-bronchitis/asthmatic-bronchitis-casestudies.aspx">Child Asthma</option>
+							<option value="">Chronic Cold</option>
+							<option value="">Chronic Laryngitis</option>
+							<option value="casestudies.aspx">Chyluria</option>
+							<option value="">Coeliac Disease</option>
+							<option value="">Cold &amp; Cough</option>
+							<option value="">Conjunctivitis</option>
+							<option value="">Constipation</option>
+							<option value="">COPD</option>
+							<option value="casestudies.aspx">Corns Callosities</option>
+							<option value="">Cough</option>
+							<option value="casestudies.aspx">Crohns Disease</option>
+							<option value="Cyclic-Neutropenia-case-1.aspx">Cyclic Neutropenia</option>
+							<option value="">Cystitis</option>
+							<option value="casestudies.aspx">Depression</option>
+							<option value="">Dermatitis</option>
+							<option value="casestudies.aspx">Dermatomyositis</option>
+							<option value="">Diabetic Neuropathy</option>
+							<option value="">Down's Syndrome</option>
+							<option value="">Dry Eyes</option>
+							<option value="">Dysfunctional Uterine Bleeding</option>
+							<option value="">Dyslexia</option>
+							<option value="casestudies.aspx">Dysmenorrhoea</option>
+							<option value="app/eczema/eczema-casestudies.aspx">Eczema</option>
+							<option value="casestudies.aspx">Elephantiasis</option>
+							<option value="casestudies.aspx">Epidermolysis Bullosa</option>
+							<option value="">Epilepsy</option>
+							<option value="casestudies.aspx">Erectile Dysfunction</option>
+							<option value="casestudies.aspx">Fibroadenoma</option>
+							<option value="casestudies.aspx">Fibromyalgia</option>
+							<option value="app/fissure-in-ano/fissure-casestudies.aspx">Fissure-In-Ano</option>
+							<option value="">Fistula-In-Ano</option>
+							<option value="">Floaters - Eye</option>
+							<option value="app/frequent-colds/frequent-colds-casestudies.aspx">Frequent Colds</option>
+							<option value="">Frozen Shoulder</option>
+							<option value="casestudies.aspx">Fungal Infection</option>
+							<option value="">Gall bladder Stones</option>
+							<option value="">Gallstones</option>
+							<option value="casestudies.aspx">Gastritis</option>
+							<option value="">Gastroenteritis</option>
+							<option value="">General</option>
+							<option value="">Genital Warts</option>
+							<option value="app/gerd/gerd-casestudies.aspx">GERD</option>
+							<option value="">GERD treatment</option>
+							<option value="">Glaucoma</option>
+							<option value="casestudies.aspx">Gout</option>
+							<option value="casestudies.aspx">Granuloma Annulare</option>
+							<option value="casestudies.aspx">Guillain Barre Syndrome</option>
+							<option value="">Guillain-Barre Syndrome</option>
+							<option value="">H Pylori</option>
+							<option value="casestudies.aspx">H.I.V.</option>
+							<option value="casestudies.aspx">Hailey Hailey Disease</option>
+							<option value="app/hairfalling/hairloss-casestudies.aspx">Hair Fall</option>
+							<option value="">Hair Falling</option>
+							<option value="">Headache</option>
+							<option value="">Hepatitis B</option>
+							<option value="app/hepatitis-c/hepatitis-c-casestudies.aspx">Hepatitis C</option>
+							<option value="casestudies.aspx">Herpes</option>
+							<option value="casestudies.aspx">Herpes Zoster</option>
+							<option value="">Hidradenitis Suppurative</option>
+							<option value="">Hoarseness Of Voice</option>
+							<option value="">Hydradenitis Suppurativa</option>
+							<option value="">Hyperpigmentation</option>
+							<option value="casestudies.aspx">Hypertension</option>
+							<option value="">Hyperthyroidism</option>
+							<option value="">Hypothyroidism</option>
+							<option value="">Ichthyosis</option>
+							<option value="">Idiopathic Thrombocytopenic Purpura</option>
+							<option value="">Insomnia</option>
+							<option value="app/irritable-bowel-syndrome/ibs-casestudies.aspx">Irritable Bowel Syndrome</option>
+							<option value="">Joints Pain</option>
+							<option value="">Juvenile Rheumatoid Arthritis</option>
+							<option value="">Kidney Stone</option>
+							<option value="">Laryngitis</option>
+							<option value="">Leg Pain</option>
+							<option value="">Leucoderma</option>
+							<option value="">Leucorrhoea</option>
+							<option value="">Lichen Nitidus</option>
+							<option value="">Lichen Plano Pilaris</option>
+							<option value="app/lichen-planus/lichenplanus-casestudies.aspx">Lichen Planus</option>
+							<option value="">Lichen Planus Pigmentosa (Lpp)</option>
+							<option value="">Liver Cirrhosis</option>
+							<option value="casestudies.aspx">Lumbar Spondylitis</option>
+							<option value="casestudies.aspx">Mastoiditis</option>
+							<option value="">Memory Loss</option>
+							<option value="casestudies.aspx">Meniere's Disease</option>
+							<option value="">Menopausal Syndrome</option>
+							<option value="">Mental Retardation</option>
+							<option value="app/migraine/migraine-casestudies.aspx">Migraine</option>
+							<option value="">Migraine Treatment</option>
+							<option value="">Molluscum Contagiosa</option>
+							<option value="casestudies.aspx">Molluscum Contagiosum</option>
+							<option value="casestudies.aspx">Mouth Ulcers</option>
+							<option value="casestudies.aspx">Multiple Sclerosis</option>
+							<option value="casestudies.aspx">Multiple System Atrophy</option>
+							<option value="casestudies.aspx">Muscular Dystrophy</option>
+							<option value="casestudies.aspx">Myasthenia Gravis</option>
+							<option value="">Nasal Polyps</option>
+							<option value="app/nephrotic-syndrome/nephrotic-syndrome-casestudies.aspx">Nephrotic Syndrome</option>
+							<option value="">Neurofibromatosis</option>
+							<option value="">Nocturnal Enuresis</option>
+							<option value="casestudies.aspx">Non-Healing Ulcers</option>
+							<option value="">Non-Healing Wound</option>
+							<option value="">Orolingual Dystonia</option>
+							<option value="casestudies.aspx">Osteoarthritis</option>
+							<option value="">Parapsoriasis</option>
+							<option value="casestudies.aspx">PCOD</option>
+							<option value="">Pemphigus</option>
+							<option value="">Peptic Ulcer</option>
+							<option value="">Peripheral Neuropathy</option>
+							<option value="casestudies.aspx">Photodermatitis</option>
+							<option value="casestudies.aspx">Piebaldism</option>
+							<option value="">Piles</option>
+							<option value="">Pilonidal Sinus</option>
+							<option value="">Pityriasis Alba</option>
+							<option value="">Pityriasis Rosea (Pr)</option>
+							<option value="">Pityriasis Versicolor</option>
+							<option value="">Polyarthralgia</option>
+							<option value="casestudies.aspx">Polymyositis</option>
+							<option value="app/prostatitis/prostatitis-casestudies.aspx">Prostate Cancer</option>
+							<option value="">Prostate Enlargement</option>
+							<option value="app/prostatitis/prostatitis-casestudies.aspx">Prostatitis</option>
+							<option value="casestudies.aspx">Prurigo Nodularis</option>
+							<option value="app/psoriasis/psoriasis-casestudies.aspx">Psoriasis</option>
+							<option value="app/psoriatic-arthritis/psoriatic-arthritis-casestudies.aspx">Psoriatic Arthritis</option>
+							<option value="">Raynaud's Disease</option>
+							<option value="casestudies.aspx">Reactive Perforating Collangenosis</option>
+							<option value="">Recurrent Cough</option>
+							<option value="">Renal Calculus</option>
+							<option value="casestudies.aspx">Restless Leg Syndrome</option>
+							<option value="casestudies.aspx">Rheumatoid Arthritis</option>
+							<option value="">Schizophrenia</option>
+							<option value="">Sciatica</option>
+							<option value="casestudies.aspx">Scleroderma</option>
+							<option value="casestudies.aspx">Seborrhoeic Dermatitis</option>
+							<option value="casestudies.aspx">Sinusitis</option>
+							<option value="app/sleeplessness/sleeplessness-casestudies.aspx">Sleeplessness</option>
+							<option value="casestudies.aspx">Steven Johnsons Syndrome</option>
+							<option value="systemic-lupus-erythematosus.aspx">systemic lupus erythematosus</option>
+							<option value="casestudies.aspx">Tenia Corporis</option>
+							<option value="">Tennis Elbow</option>
+							<option value="">Tinea</option>
+							<option value="casestudies.aspx">Tinea Versicolor</option>
+							<option value="casestudies.aspx">Tinnitus</option>
+							<option value="app/tonsillitis/tonsillitis-casestudies.aspx">Tonsillitis</option>
+							<option value="">Tonsils</option>
+							<option value="app/trigeminalneuralgia/trigeminal-neuralgia-casestudies.aspx">Trigeminal Neuralgia</option>
+							<option value="app/ulcerative-colitis/ulcerative-colitis-casestudies.aspx">Ulcerative Colitis</option>
+							<option value="app/underactive-thyroid/thyroid-casestudies.aspx">Underactive Thyroid</option>
+							<option value="casestudies.aspx">Urinary Tract Infection</option>
+							<option value="app/urticaria/urticaria-casestudies.aspx">Urticaria</option>
+							<option value="">Uterine Fibroids</option>
+							<option value="casestudies.aspx">Uveitis</option>
+							<option value="">Varicose Ulcer</option>
+							<option value="casestudies.aspx">Varicose Veins</option>
+							<option value="">VASCULITIS</option>
+							<option value="casestudies.aspx">Verruca Plana</option>
+							<option value="casestudies.aspx">Vertigo</option>
+							<option value="app/vitiligo/vitiligo-casestudies.aspx">Vitiligo</option>
+							<option value="">Vitiligo (Book)</option>
+							<option value="casestudies.aspx">Vocal Cord Nodule</option>
+							<option value="casestudies.aspx">Warts</option>
+							<option value="casestudies.aspx">Writers Cramp (Dystonia)</option>
+							<option selected="selected" value="0">Select</option>
+			
+			</select>           
+					  </div>
+					<div class="case__studies__btn ml-4">
+						<a href="#" class="btn btn__red-1">view_testimonials</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+		<section class="section__patient__photo u-flex-row pt-4 pb-2">
+			<div class="patient__photo">
+
+			</div>
+			<div class="patient__dis">
+			<h1 class="heading__primary">Patient's Case Photos</h1>
+			<h4 class="heading__quaterny">Results may vary from person to person</h4 >
+				<p class="paragraph-2">Some of the illustrative case photos of <br>
+					patients treated and documented at Life force</p>
+				<a href="#" class="btn__red-1">View all case photo</a>
+			</div>
+			<div class="patient__photo">
+
+			</div>
+		</section>
+		<section class="section__research text-center">
+			<h1 class="heading__primary"> Research and Homeopathy</h1>
+			<p class="paragraph-2 ">Patients from all across the world approach Life Force
+				 for the treatment of chronic and recurring diseases. Obviously, there are 
+				 good doctors in all countries. Patients from many countries still contacted
+				  Life Force because they did not get well, due to the very nature of those 
+				  difficult-to-treat-diseases. Those diseases included all kind of chronic diseases 
+				  such as psoriasis, migraine, asthma, eczema, lichen planus, vitiligo, urticaria, 
+				  trigeminal neuralgia, ulcerative colitis and many more.</p>
+			<a href="#" class="btn__red-1">Read More</a>
+		</section>
+		<footer class="footer">
+            <div class="container mb-5 float-right w-30">
+				<h3 class="h3">
+					Follow US ON SOCIAL MEDIA
+				</h3>
+				<div class="container d-inline-block mt-3 mb-5">
+					<a href="#" class="social mr-2 px-2">
+						<svg class="social__icon social__icon-1 " >
+							<use xlink:href="css/img/social.svg#icon-facebook" ></use>
+						</svg>
+					</a>
+					<a href="#" class="social mr-2 px-2">
+						<svg class="social__icon social__icon-3 ">
+							<use xlink:href="css/img/social.svg#icon-twitter"></use>
+						</svg>
+					</a>
+					<a href="#" class="social mr-2 px-2">
+						<svg class="social__icon social__icon-2 ">
+							<use xlink:href="css/img/social.svg#icon-instagram"></use>
+						</svg>
+					</a>
+					<a href="#" class="social mr-2 px-2">
+						<svg class="social__icon social__icon-4 ">
+							<use xlink:href="css/img/social.svg#icon-youtube"></use>
+						</svg>
+					</a>
+					<a href="#" class="social mr-2 px-2">
+						<svg class="social__icon social__icon-5 ">
+							<use xlink:href="css/img/social.svg#icon-blogger2"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+            <p class="blockquote-footer font-s">
+                &copy; Copyright 2020 by Dr. Neeraj gupta .All rights reserved. | Sitemap
+            </p>
+        </footer>
+	</body>
+</html>
