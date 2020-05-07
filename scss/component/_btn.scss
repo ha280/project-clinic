@@ -1,0 +1,77 @@
+
+.btn-red{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+.btn__alppha{
+	border: 1px solid $color-black;
+	margin: 0 .5rem;
+	padding: .3rem;
+	text-decoration: none;
+	line-height: 3rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: $color-black;
+	transition: all .2s;
+	&:hover{
+		color:	$color-white ;
+		background-color: $color-black;
+		box-shadow: 0 1rem 2rem rgba($color-black,0.2);
+	}
+}
+.Clickon{
+	text-decoration: none;
+	color: $color-black;
+}
+.btn__forall{
+	border-radius: .3rem;
+	background-color: brown;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	transition: all .2s;
+	&:hover{
+		background-color: rgb(131, 33, 33);
+		box-shadow: 0 1rem 2rem rgba($color-black,0.2);
+	}
+
+}
+.curibility__btn{
+	border-radius: .3rem;
+
+	background-color: brown;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	margin-left: 50rem;
+	transition: all .2s;
+	&:hover{
+		background-color: rgb(131, 33, 33);
+		box-shadow: 0 1rem 2rem rgba($color-black,0.2);
+	}
+}
+.online__treatment{
+	text-decoration: none;
+	color: chocolate;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+.btn__red-1{
+	display: inline-block;
+		padding: .7rem 1rem;
+		font-weight: 300;
+		font-size: 1.5rem;
+		text-decoration: none;
+	    transition: all .2s;
+		background-color: red;
+		color: white;
+		&:hover{
+			color: white;
+		}
+}

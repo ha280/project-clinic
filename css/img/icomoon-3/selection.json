@@ -1,0 +1,163 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M384 214h426v426h-84v-282l-496 496-60-60 496-496h-282v-84z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "call_made"
+        ],
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 13,
+        "ligatures": "call_made",
+        "id": 90,
+        "prevSize": 24,
+        "name": "call_made"
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 90
+    },
+    {
+      "icon": {
+        "paths": [
+          "M810 554h-596v-84h596v84z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "remove"
+        ],
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 14,
+        "ligatures": "remove",
+        "id": 166,
+        "prevSize": 24,
+        "name": "remove"
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 166
+    },
+    {
+      "icon": {
+        "paths": [
+          "M854 640q-18 0-31-12t-13-30v-384q0-18 13-31t31-13h84v470h-84zM426 938l-18-20q-24-24-38-52-6-14-4-28l40-198h-236q-34 0-59-26t-25-60v-46q0-20 6-34l114-262q26-42 74-42h346q42 0 71 29t29 71v334q0 36-26 62zM464 780l176-174v-336q0-14-14-14h-346l-110 252v46h236q38 0 65 31t17 71z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "thumb_down_off_alt"
+        ],
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 9,
+        "ligatures": "thumb_down_off_alt",
+        "id": 1031,
+        "prevSize": 24,
+        "name": "thumb_down_off_alt"
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 1031
+    },
+    {
+      "icon": {
+        "paths": [
+          "M170 384q18 0 31 12t13 30v384q0 18-13 31t-31 13h-84v-470h84zM598 86l18 20q24 24 38 52 6 14 4 28l-40 198h236q34 0 59 26t25 60v46q0 18-6 34l-114 262q-26 42-74 42h-346q-42 0-71-29t-29-71v-334q0-36 26-62zM560 244l-176 174v336q0 14 14 14h346l110-252v-46h-236q-38 0-65-31t-17-71z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "thumb_up_off_alt"
+        ],
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 10,
+        "ligatures": "thumb_up_off_alt",
+        "id": 1032,
+        "prevSize": 24,
+        "name": "thumb_up_off_alt"
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 1032
+    },
+    {
+      "icon": {
+        "paths": [
+          "M921.6 307.2v358.4c0 56.32-46.080 102.4-102.4 102.4h-204.8v153.6l-204.8-153.6h-204.8c-56.371 0-102.4-46.080-102.4-102.4v-358.4c0-56.32 46.029-102.4 102.4-102.4h614.4c56.32 0 102.4 46.080 102.4 102.4z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "message"
+        ],
+        "grid": 20
+      },
+      "attrs": [],
+      "properties": {
+        "id": 226,
+        "order": 12,
+        "prevSize": 20,
+        "name": "message"
+      },
+      "setIdx": 2,
+      "setId": 2,
+      "iconIdx": 225
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": false,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon-2",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

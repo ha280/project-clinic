@@ -1,0 +1,50 @@
+.popup{
+    &-1{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: $color-blue;
+    display: inline-block;
+    width: 18rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 0rem 1rem 1rem rgba($color-black ,.2);
+    border: 2px solid rgb(231, 231, 231);
+       &:focus{
+           display: none;
+       }
+    }
+    &-2{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: 2000;
+        width: 25rem;
+        height: 35rem;
+        display: none;
+    }
+   
+    &-3{
+        position: fixed;
+        right: 0;
+        bottom: 2.5rem;  
+        z-index: 1000;
+        width: 13rem;
+        height: 5rem;
+        border-radius: 10px;
+        color: white;
+        background-image: linear-gradient(rgba(250, 150, 20,1),rgba(155, 90, 4,1));
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 21% 76%, 18% 82%, 14% 75%, 0 75%);
+		border: 2px solid rgb(231, 231, 231);
+        box-shadow: 0rem 1rem 1rem rgba($color-black ,.2);
+        
+    }
+    &-1:focus + &-2{
+        display: block;
+    }
+    &-2:hover{
+        display: block;
+    }
+}

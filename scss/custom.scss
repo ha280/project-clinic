@@ -1,0 +1,56 @@
+.dropdown:hover .dropdown-menu-2 {
+    display: block !important;
+  }
+  .bg-green-light{background-color: $color-green-light;}
+  .font-m{
+    font-size: 1.4rem;
+}
+.dropdown-menu-2{
+  transition: all 0.8s;
+  animation: pulsate .3s;
+}
+.font-s{
+  font-size:1.1rem;
+}
+.bor-r-100p{
+  border-radius: 100px;
+}
+.carousel-inner img {
+  width: 150%;
+  height: 80vh;
+}
+.font-b{
+  font-size: 1.6rem;
+}
+.intro{
+  &__1{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right bottom,rgba($color-blue-dark,.8),rgba($color-black,.8)),url(../css/img/medicine.jpg);
+  }
+  &__2{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../css/img/images.jpg);
+  }
+  &__3{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../css/img/download.jpg);
+  }
+}
+.caption__1{
+  top: 50%;
+  transform: translate(-50%,-50%);
+  left: 40%;
+  right: 0%;
+}
+.form-control{
+  width: 75%;
+}
+.w-30{
+  width: 30%;
+}
+.h-5{
+  height: 2rem;
+}

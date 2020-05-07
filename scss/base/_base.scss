@@ -1,0 +1,59 @@
+$color-black: #000;
+$color-grey-dark:#777;
+$color-grey:hsl(0, 0%, 78%);
+$color-grey-light: #f1f1f1;
+$color-grey-light-1: rgb(243, 241, 241)f1;
+
+$color-black: #000;
+$color-white: #fff;
+$color-orange-red: rgb(226, 60, 0);
+$color-red: rgb(255, 0, 0);
+$color-red-dark: rgb(173, 32, 32);
+
+$color-green-light: rgb(117, 248, 124);
+$color-green-dark: rgb(7, 155, 14);
+$color-green: rgb(4, 255, 16);
+$color-brown: rgb(175, 114, 57);
+$color-blue-light: #2998ff;
+$color-blue-dark: #5643fa;
+$color-blue: blue;
+$color-orange: rgb(126, 68, 13);
+$color-orange-7:rgba(140,69,27,1);
+//GRID
+$grid-width: 1400rem;
+$gutter-verticle: 8rem;
+$gutter-horizontal: 6rem;
+
+
+
+
+*{
+	padding: 0;
+	border: 0;
+	box-sizing: inherit;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html{
+	box-sizing: inherit;
+    font-size: 65%;
+    text-rendering: optimizeLegibility;  
+	padding: 0;
+	border: 0;
+}
+body{
+    font-weight: 400;
+    color: $color-grey-dark;
+    font-family: 'Open sans' ,sans-serif;
+    line-height: 1.6;
+}
+.contain{
+    display: grid;
+    grid-template-columns: [sidebar-start]16rem [sidebar-end full-start]  minmax(6rem,1fr)
+    [center-start] repeat(8,[col-start] minmax(min-content, 12rem)[col-end]) [center-end] 
+    minmax(6rem,1fr) [full-end];
+    grid-template-rows: 80vh 40vw max-content max-content min-content max-content max-content max-content;
+}

@@ -1,0 +1,77 @@
+.search__icon{
+    height: 2rem;
+    width: 2rem;
+}
+.patent__icon{
+    height: 1.2rem;
+    width: 1.2rem;
+    fill: white;
+}
+.header__ask__icon{
+    height: 1.3rem;
+    width: 1rem;
+    fill: white; 
+}
+.call__icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: rgb(3, 3, 129);
+}
+.curability__icon{
+    height: 2rem;
+    width: 2rem;
+    margin: 0 2rem;
+}
+.icon__cross{
+   float: right;
+}
+.cross{
+    font-size: 1.5rem;
+}
+.social__icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    &-1{
+        fill: #3b5999;
+    }
+    &-2{
+        fill: #e4405f;
+    }
+    &-3{
+        fill: #55acee;
+    }
+    &-4{
+        fill: #cd201f;
+    }
+    &-5{
+        fill: #f57d00;
+    }
+}
+.popup_icon{
+    height: 2rem;
+    width: 2rem;
+    fill: $color-orange-red;
+}
+.popup_icon-2{
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: #a7b5ef;
+}
+.popup_icon-3{
+    height: 3.5rem;
+    width: 3.5rem;
+    fill: #a7b5ef;
+    &:focus,
+    &:hover{
+        fill: red;
+    }
+}
+.popup_icon-4{
+    height: 3.5rem;
+    width: 3.5rem;
+    fill: #a7b5ef;
+    &:focus,
+    &:hover{
+        fill: blue;
+    }
+}

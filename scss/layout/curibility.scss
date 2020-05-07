@@ -1,0 +1,22 @@
+.curability{
+    &__exp{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__test{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__exp-1{
+        list-style: none;
+    }
+}
+.exp__1{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    line-height: 5rem;
+    padding: 0 3rem;
+    color: black;
+}
+

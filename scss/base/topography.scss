@@ -1,0 +1,50 @@
+.intro__main{
+	color: $color-white;
+	align-self: center;
+	margin-left: 10rem;
+}
+.heading__primary{
+	text-align: center;
+	text-transform: capitalize;
+	backface-visibility: hidden;
+	text-decoration: bold;
+	margin-bottom: 1.5rem;
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+span {
+	color: $color-orange;
+}
+.heading__secoundry{
+	font-size: 3rem;
+	text-transform: capitalize;
+	font-weight: 700;
+	display: inline-block;
+	transition: all .2s;
+	margin-bottom: 2rem;
+}
+.heading__tertiary{
+	font-size:  2.5rem;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: $color-grey-dark;
+	text-align: center;
+}
+.heading__quatrine{
+	font-size:  2rem;
+
+}
+.paragraph{
+	color: $color-white;
+	font-size: 1.5rem;
+}
+.paragraph-1{
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 800;
+}
+.paragraph-2{
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 3rem;
+}
