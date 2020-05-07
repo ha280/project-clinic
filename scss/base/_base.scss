@@ -55,5 +55,5 @@ body{
     grid-template-columns: [sidebar-start]16rem [sidebar-end full-start]  minmax(6rem,1fr)
     [center-start] repeat(8,[col-start] minmax(min-content, 12rem)[col-end]) [center-end] 
     minmax(6rem,1fr) [full-end];
-    grid-template-rows: 80vh 40vw max-content max-content min-content max-content max-content max-content;
+    grid-template-rows: 80vh 40vw max-content max-content 50vw min-content max-content max-content max-content;
 }
