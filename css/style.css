@@ -7172,7 +7172,7 @@ body {
 .contain {
   display: grid;
   grid-template-columns: [sidebar-start] 16rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 12rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
-  grid-template-rows: 80vh 40vw max-content max-content 50vw min-content max-content max-content max-content; }
+  grid-template-rows: 80vh 40vw max-content max-content 70vw min-content max-content max-content max-content; }
 
 .intro__main {
   color: #fff;
@@ -7639,7 +7639,9 @@ span {
 
 .section__online__treatment {
   grid-row: 5 / 6;
-  grid-column: 3 / -1; }
+  grid-column: 2 / -1;
+  background-image: url(img/bg-pattern.jpg);
+  background-attachment: fixed; }
 
 .section__case {
   grid-row: 6 / 7;
