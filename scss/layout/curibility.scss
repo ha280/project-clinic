@@ -9,6 +9,8 @@
     }
     &__exp-1{
         list-style: none;
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     }
 }
 .exp__1{
@@ -16,7 +18,8 @@
     list-style: none;
     font-size: 1.3rem;
     line-height: 5rem;
-    padding: 0 3rem;
+    padding: 0 2rem;
     color: black;
+    
 }
 

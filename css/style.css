@@ -7172,7 +7172,7 @@ body {
 .contain {
   display: grid;
   grid-template-columns: [sidebar-start] 16rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 12rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
-  grid-template-rows: 80vh 40vw max-content max-content 70vw min-content max-content max-content max-content; }
+  grid-template-rows: 80vh 35vw max-content 37vw  60vw min-content max-content max-content max-content; }
 
 .intro__main {
   color: #fff;
@@ -7248,7 +7248,9 @@ span {
   justify-self: center; }
 
 .disease-alpha {
-  display: flex;
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+  grid-template-columns: repeat(12, min-content);
   list-style: none;
   text-decoration: none; }
 
@@ -7281,14 +7283,16 @@ span {
   justify-content: space-between; }
 
 .curability__exp-1 {
-  list-style: none; }
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
 
 .exp__1 {
   text-decoration: none;
   list-style: none;
   font-size: 1.3rem;
   line-height: 5rem;
-  padding: 0 3rem;
+  padding: 0 2rem;
   color: black; }
 
 .footer {
@@ -7357,12 +7361,14 @@ span {
   border: 1px solid #000;
   margin: 0 .5rem;
   padding: .3rem;
+  margin: 1rem .5rem 0rem .8rem;
   text-decoration: none;
   line-height: 3rem;
   font-size: 1.5rem;
   font-weight: 500;
   color: #000;
-  transition: all .2s; }
+  transition: all .2s;
+  cursor: pointer; }
   .btn__alppha:hover {
     color: #fff;
     background-color: #000;
@@ -7468,16 +7474,16 @@ span {
 .form {
   text-align: center; }
   .form__email {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     height: 4rem;
-    width: 40rem;
+    width: 50rem;
     border-radius: 4px;
     background-color: #f1f1f1;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     font-size: 1.5rem; }
   .form__brief {
-    height: 15rem;
-    width: 40rem;
+    height: 10rem;
+    width: 48rem;
     border-radius: 4px;
     padding: 1rem 1rem;
     background-color: #f1f1f1;
@@ -7719,9 +7725,24 @@ span {
 .w-30 {
   width: 30%; }
 
+.w-10 {
+  width: 10%; }
+
 .h-5 {
   height: 2rem; }
 
 .disease__list {
   height: 175px;
   overflow-y: scroll; }
+
+.disease_name_list-A {
+  height: 10rem;
+  overflow-y: scroll;
+  margin-right: -4rem; }
+  .disease_name_list-A li {
+    padding-top: 1rem;
+    padding-left: 1rem; }
+
+.list-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }

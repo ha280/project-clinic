@@ -1,17 +1,17 @@
 .form{
     text-align: center;
     &__email{
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         height: 4rem;
-        width: 40rem;
+        width: 50rem;
         border-radius: 4px;
         background-color: $color-grey-light;
         box-shadow: 0 2rem 4rem rgba($color-black ,.2);
         font-size: 1.5rem;
     }
     &__brief{
-        height: 15rem;
-        width: 40rem;
+        height: 10rem;
+        width: 48rem;
         border-radius: 4px;
         padding: 1rem 1rem;
         background-color: $color-grey-light;

@@ -51,10 +51,27 @@
 .w-30{
   width: 30%;
 }
+.w-10{
+  width: 10%;
+}
 .h-5{
   height: 2rem;
 }
 .disease__list{
   height: 175px;
   overflow-y: scroll;
+}
+.disease_name_list-A{
+  height: 10rem;
+  overflow-y: scroll;
+  margin-right: -4rem;
+  & li{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    
+  }
+}
+.list-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

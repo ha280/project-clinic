@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	   <link rel="stylesheet" type="text/css" href="../css/style.css">
+	   <script type="text/javascript" src="file:///F:/cs/html/bookstrap/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+	   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<title>whole body representation</title>
+	</head>
+	<body class="contain-body">
+         <header class="header d-block">
+            <div class="head__img py-1 ml-2 my-0">
+                 <img src="../css/img/1d2f053732e5bf726a73e5061749b1f9.jpg" class="header__logo-img">
+            </div>
+            <ul class="list-unstyled  btn-group-verticle px-0 my-0 ">
+                   <li class="py-3 px-1 ml-1 my-3 ">
+                   <button type="button" class="btn btn-block py-3 font-m bg-green-light px-1 " >ask Dr.gupta</button>
+                </li>
+                <li class="dropdown dropright py-3 px-1 ml-1 my-3">
+                <button type="button" class=" btn btn-block py-3 bg-green-light font-m px-1 " data-toggle="dropdown">Patient Sign in</button>
+                    <div id="patientsignin" class=" dropdown-menu pb-4 patient__signin icon__cross mr-4">
+                        <button type="button" class="close mr-3" data-dismiss="alert">&times;</button>
+                        <form name="loginForm" method="post" action="./" id="loginForm" class="">
+                        <div>
+                            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="">
+                        </div>	
+                        <div>	
+                            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+                            <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="">
+                        </div>
+                        <div class="text-center m-b-md custom-login">                            </div>
+                        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12 pb-2 text-center float-left px-0 mt-3">
+                            <img src="css/img/login-icon.png" class="loginimg">
+                            <br>
+                            <h3 class="text-center h1">Patient Login</h3>
+                        </div>
+                        <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 form-group float-right px-0 py-2 mt-3">	
+                            <div class="form-group">
+                                <input name="txtpinno" type="number" id="txtpinno" class="form-control" 
+                                    placeholder="PIN">
+                            </div>
+                            <div class="form-group my-4">
+                                <input name="txtpassword" type="password" id="txtpassword" 
+                                    class="form-control" placeholder="Password">
+                                </div>
+                                <div class="col-md-6 col-lg-6 my-3">
+                                    <a class="font-s" href="#" style="text-decoration:underline ">Forgot Password </a>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <input type="submit" name="loginbtn" value="Login" id="loginbtn" 
+                                        class="btn btn-success btn-block loginbtn">
+                                </div>
+                            </div>								  
+                        </form>									
+                    </div>
+                </li>
+                <li class="dropdown dropright header__li px-1 ml-1 my-3 "> 
+                <button type="button " class="btn btn-block  py-3 header__nav font-m px-1 " data-toggle="dropdown">About Us  </button>    
+                <div class="dropdown-menu dropdown-menu-2 font-sfont-s">
+                    <a  href="#" class="dropdown-item w-75 my-1">Home</a>
+                    <a  href="#" class="dropdown-item w-75 my-1">Dr. neeraj gupta</a>
+                    <a  href="#" class="dropdown-item w-75 my-1">Homeopathy</a>
+                    <a  href="#" class="dropdown-item w-75 my-1 ">Homeopathic medicine</a>
+                    <a  href="#" class="dropdown-item w-75 my-1 ">Our mission</a>
+                </div>
+                    </li>
+                <li class="dropdown dropright header__li px-1 ml-1 my-3"> 
+                    <button type="button " class="btn btn-block  py-3 header__nav font-m px-1 " data-toggle="dropdown">Homeopathy  </button>    
+                    <div class="dropdown-menu dropdown-menu-2 font-s">
+                    <a  href="#" class="dropdown-item w-75 my-1 ">What is homeopathy?</a>
+                    <a  href="#" class="dropdown-item w-75 my-1">What homeopathy is no</a>
+                    <a  href="#" class="dropdown-item w-75 my-1 ">What your doctor wont <br>tell you about homeopathy?</a>
+                    <a  href="#" class="dropdown-item w-75 my-1 ">Facts and myths</a>
+                    <a  href="#" class="dropdown-item w-75 my-1 ">Benefits of homeopathy</a>
+                    <a  href="#" class="dropdown-item w-75 my-1 ">Sources of Medicines</a>
+                    <a  href="#" class="dropdown-item w-75 my-1 ">Homeopathic Remedies (types)</a>
+                    <a  href="#" class="dropdown-item w-75 my-1">How to find a good homeopath?</a>
+                    </div>
+                </li>
+                <li class="dropdown dropright header__li px-1 ml-1 my-3"> 
+                    <button type="button " class="btn btn-block py-3 header__nav font-m px-1 " data-toggle="dropdown">Dr. Gupta </button>    
+                    <div class="dropdown-menu dropdown-menu-2 font-s">
+                    <a  href="#" class="dropdown-item w-75 my-1 ">Home</a>
+                    <a  href="#" class="dropdown-item w-75 my-1 ">Dr. neeraj gupta</a>
+                    <a  href="#" class="dropdown-item w-75 my-1">blogs</a>
+                    <a  href="#" class="dropdown-item w-75 my-1">Photo gallry</a>
+                    <a  href="#" class="dropdown-item w-75 my-1 ">education</a>
+                    </div>
+                </li>
+                <li class="dropdown dropright header__li px-1 ml-1 my-3"> 
+                    <button type="button " class="btn btn-block py-3 header__nav font-m px-1" data-toggle="dropdown">Disease</button>    
+                    <div class="dropdown-menu dropdown-menu-2 font-s">                        <a  href="#" class="dropdown-item w-75 my-1 ">A to Z Diseases</a>
+                        <a  href="#" class="dropdown-item w-75 my-1 ">Tests and tools</a>
+                        <a  href="#" class="dropdown-item w-75 my-1">Photos (Before-After)</a>
+                        <a  href="#" class="dropdown-item w-75 my-1">Videos (Patients)</a>
+                        <a  href="#" class="dropdown-item w-75 my-1 ">FAQ on various diseases</a>
+                    </div>
+                </li>
+                <li class="dropdown dropright header__li px-1 ml-1 my-3"> 
+                    <button type="button " class="btn btn-block py-3 header__nav font-m px-1 " data-toggle="dropdown">Treatment</button>    
+                    <div class="dropdown-menu dropdown-menu-2 font-s">
+                        <a  href="#" class="dropdown-item w-75 my-1 ">Homeopathy Treatment</a>
+                        <a  href="#" class="dropdown-item w-75 my-1 ">Treatment Online</a>
+                        <a  href="#" class="dropdown-item w-75 my-1">Case Studies (All)</a>
+                        <a  href="#" class="dropdown-item w-75 my-1">Photos (Before-After)</a>
+                        <a  href="#" class="dropdown-item w-75 my-1 ">FAQ about Online treatment</a>
+                    </div>
+                </li>
+                <li class="dropdown dropright header__li px-1 ml-1 my-3"> 
+                    <button type="button " class="btn btn-block  py-3 header__nav font-m px-1" data-toggle="dropdown">Contact Us</button>    
+                    <div class="dropdown-menu dropdown-menu-2 font-s">
+                    <a  href="#" class="dropdown-item w-75 my-1 ">Contact Us</a>
+                    <a  href="#" class="dropdown-item w-75 my-1 ">Patient's Login</a>
+                   <a  href="#" class="dropdown-item w-75 my-1">Telephonic Consultation</a>
+                </li>
+            </ul>				
+        </header>
+
+
+
+        <footer class="footer">
+            <div class="container mb-5 float-right w-30">
+				<h3 class="h3">
+					Follow US ON SOCIAL MEDIA
+				</h3>
+				<div class="container d-inline-block mt-3 mb-5">
+					<a href="#" class="social mr-2 px-2">
+						<svg class="social__icon social__icon-1 " >
+							<use xlink:href="css/img/social.svg#icon-facebook" ></use>
+						</svg>
+					</a>
+					<a href="#" class="social mr-2 px-2">
+						<svg class="social__icon social__icon-3 ">
+							<use xlink:href="css/img/social.svg#icon-twitter"></use>
+						</svg>
+					</a>
+					<a href="#" class="social mr-2 px-2">
+						<svg class="social__icon social__icon-2 ">
+							<use xlink:href="css/img/social.svg#icon-instagram"></use>
+						</svg>
+					</a>
+					<a href="#" class="social mr-2 px-2">
+						<svg class="social__icon social__icon-4 ">
+							<use xlink:href="css/img/social.svg#icon-youtube"></use>
+						</svg>
+					</a>
+					<a href="#" class="social mr-2 px-2">
+						<svg class="social__icon social__icon-5 ">
+							<use xlink:href="css/img/social.svg#icon-blogger2"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+            <p class="blockquote-footer font-s">
+                &copy; Copyright 2020 by Dr. Neeraj gupta .All rights reserved. | Sitemap
+            </p>
+        </footer>
+    </body>
+</html>
