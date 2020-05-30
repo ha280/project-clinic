@@ -43,7 +43,31 @@ dis_list_tabs.addEventListener('click', (e) => {
     });
   }
 }); 
-
+function random(){
+  var a=document.getElementById('name').value;
+  console.log(a);
+  if(a == 'USA ,Canada'){
+     var array= ['Select t','haha','hyewdbhjnd','bhrbh'];
+  }
+  else if(a == 'Europe,Australia'){
+    var array= ['Select t','haha','hyewdbhjnd','bhrbh'];
+  }
+  else if(a == 'Asia,Africa,S.America'){
+    var array= ['Select t','haha','hyewdbhjnd','bhrbh'];
+  }
+  else if(a == 'India'){
+    var array= ['Select t','haha','hyewdbhjnd','bhrbh'];
+  }
+  else {
+    var array= ['Select t'];
+  }
+  var string='';
+  for(i=0; i<array.length ; i++){
+    string = string+"<option>" + array[i] + "</option>";
+  }
+  string= "<select name='lol' class='custom-select-lg w-75 my-3'>" + string+ "</select>";
+  document.getElementById('output').innerHTML= string;
+}
 
 
  

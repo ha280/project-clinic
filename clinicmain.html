@@ -1091,31 +1091,24 @@
 					</ul>
 				</div>
 			</div>
-			
-
-
-			<form class="text-center">
-				<select name="Countries" class="custom-select-lg w-75 my-3">
-				  <option selected value="grp-0" > Select Country or Region </option>
-				  <option value="grp-1" >USA ,Canada</option>
-				  <option value="grp-2" >Europe,Australia</option>
-				  <option value="grp-3" >Asia,Africa,S.America</option>
-				  <option value="grp-4" >India</option>
+				<select name="Countries" id="name" class="custom-select-lg w-75 my-3" onchange="random()">
+				  <option>Select Country or Region</option>
+				  <option>USA ,Canada</option>
+				  <option>Europe,Australia</option>
+				  <option>Asia,Africa,S.America</option>
+				  <option>India</option>
 				</select>
-				<select name="Cost" class="custom-select-lg w-75 my-3">
-					<option selected value="grp-0">-- Select a term---</option>
-					<option value="grp-1" >USA ,Canada</option>
-					<option value="grp-2" >Europe,Australia</option>
-					<option value="grp-3" >Asia,Africa,S.America</option>
-					<option value="grp-4" >India</option>
-  
-				  </select>
-			  </form>
+				<div id="output" class="">
+					<select class="custom-select-lg w-75 my-3">
+						<option>-- Select a term---</option>
+					  </select>
+				</div>
 
 			<div class="custom-control custom-radio mb-3">
 				<input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
 				<label class="custom-control-label mr-5 font-m" for="customRadio">Credit Card</label>
-				<label class="custom-control-label font-m" for="customRadio">PayPal</label>
+				<input type="radio" class="custom-control-input" id="custompaypal" name="example2" value="custompay">
+				<label class="custom-control-label font-m" for="custompaypal">PayPal</label>
 			</div>
 			<a href="#" class="btn text-uppercase w-75 text-center btn-warning font-b">start my treatment</a>
 		</div>
