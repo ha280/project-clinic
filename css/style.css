@@ -7172,7 +7172,7 @@ body {
 .contain {
   display: grid;
   grid-template-columns: [sidebar-start] 16rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 12rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
-  grid-template-rows: 80vh 35vw max-content 37vw  60vw min-content max-content max-content max-content; }
+  grid-template-rows: 80vh max-content max-content 37vw  60vw min-content max-content max-content max-content; }
 
 .intro__main {
   color: #fff;
@@ -7474,7 +7474,7 @@ span {
 .form {
   text-align: center; }
   .form__email {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     height: 4rem;
     width: 50rem;
     border-radius: 4px;
@@ -7482,7 +7482,7 @@ span {
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     font-size: 1.5rem; }
   .form__brief {
-    height: 10rem;
+    height: 7rem;
     width: 48rem;
     border-radius: 4px;
     padding: 1rem 1rem;
@@ -7724,6 +7724,9 @@ span {
 
 .w-30 {
   width: 30%; }
+
+.w-40 {
+  width: 40%; }
 
 .w-10 {
   width: 10%; }

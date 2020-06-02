@@ -226,29 +226,26 @@
 				<p class="paragraph-1">Send query for a genuine homeopathy opinion. We have answered over a million people.</p>
 			</div>
 			<div class="contact-form">
-			<form method="post" action="#" class="form">
-                <div class="">
-                    <div class="">
-                    	<label for="e-mail id"></label>    
-                    </div>
-                    <div class="">
-                        <input type="text" name="email id" id="email id" placeholder=" your email" class="form__email">
-                    </div>
-                   	<div class="">
-						<label for="subject"></label>
-					</div>
-					<div class="">
-						<input type="text" name="subject" placeholder="  Please write about your disease in brief" class="form__brief u-margin-bottom-small" ></input >
-					</div>
-					<div class="">
-						<div class="col-md-12" style="margin:5px 0">
-							<input type="text" id="ask_your_question1_askuq_name" name="ask_your_question1_askuq_name" placeholder="Enter your name..." class="home-input nameInputText">
-						</div>
-					</div>
-					<div class="">
-						<div class="col-md-6" style="margin:5px 0">
-							<input type="text" id="txtcountry" name="txtcountry" placeholder="Enter your country..." style="display:none">
-							  <select name="ask_your_question1_askuq_country" id="ask_your_question1_askuq_country" class="ask_your_question1_askuq_country home-input countryInputText">
+			<form method="post" action="#" class="form ">
+				<div class="">
+					<label for="subject"></label>
+				</div>
+				<div class="mb-2">
+					<input type="text" name="subject" placeholder="  Please write about your disease in brief" class="form__brief" ></input >
+				</div>
+            	<div class="">
+                 	<label for="e-mail id"></label>    
+                </div>
+                <div class="mb-2">
+                  <input type="text" name="email id" id="email id" placeholder=" your email" class="form__email">
+              	</div>
+              	
+				<div class="mb-2">
+					<input type="text" id="ask_name" name="ask__name" placeholder="Enter your name..." class="form__email px-2">
+				</div>
+				<div class="col-md-6 d-inline-block mb-2">
+					<input type="text" id="txtcountry" name="txtcountry" placeholder="Enter your country..." style="display:none">
+					  <select name="ask_country" id="ask_country" style="border-radius: 5px;" class="p-3 float-left ml-4 font-m w-40">
 		<option value="">Select a country</option>
 		<option value="+93">AFGHANISTAN</option>
 		<option value="+355">ALBANIA</option>
@@ -451,29 +448,15 @@
 		<option value="+38">YUGOSLAVIA</option>
 		<option value="+260">ZAMBIA</option>
 		<option value="+263">ZIMBABWE</option>
-							</select>
-	
-						  </div>
-						  <div class="col-md-6" style="margin:5px 0">
-							<input type="text" id="ask_your_question1_askuq_city" name="ask_your_question1_askuq_city" placeholder="Enter your city..." class="home-input cityInputText">
-						 </div>
-					</div>
-					<div class="">
-
-						<div style="margin:5px 0; width:30%; float:left;padding:0px 20px">
-							<input type="text" id="ask_your_question1_askuq_mobile_code" name="ask_your_question1_askuq_mobile_code" value="+91" placeholder="+91"  class="home-input codeInputText">
-						  </div>
-						  <div id="staticParent" style="margin:5px 0; width:70%; float:left;padding:0px 20px">
-							<input type="text" id="ask_your_question1_askuq_mobile" name="ask_your_question1_askuq_mobile" class="home-input ask_your_question1_askuq_mobile mobileInputText" placeholder="Enter mobile...">
-							<input type="hidden" id="ask_your_question1_askuq_disease_id" name="ask_your_question1_askuq_disease_id" value="0">
-							<input type="hidden" id="ask_your_question1_askuq_disease_name" name="ask_your_question1_askuq_disease_name">
-						  </div>
-						
-					</div>
-					<div class="">
-						
-					</div>
-                </div>
+					</select>
+					<input type="text" id="ask_city" name="ask_city" style="border-radius: 5px;" placeholder="Enter your city..." class="font-m float-right p-3 mr-4 w-40">
+				</div>
+				<div class="col-md-6 d-inline-block text-center mb-2">
+						<input type="text" id="ask_mobile_code" name="ask_mobile_code" value="+91" placeholder="+91" style="border-radius: 5px;" class="p-3 font-m ml-4 float-left w-30">
+						<input type="text" id="ask_mobile" name="ask_mobile" class="p-3 float-right mr-4 font-m w-50" style="border-radius: 5px;" placeholder="Enter mobile...">
+						<input type="hidden" id="ask_disease_id" name="ask_disease_id" value="0">
+						<input type="hidden" id="ask_disease_name" name="ask_disease_name">
+				</div>	
 			</form>
 				<div class="text-center px-4 py-2">
 					<a class="btn btn-primary  font-b" href="#">Get Opinion</a>
