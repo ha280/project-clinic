@@ -69,5 +69,10 @@ function random(){
   document.getElementById('output').innerHTML= string;
 }
 
+const email_id = document.querySelector('#email_id');
+const hidden_form = document.querySelector('#hidden_form');
 
- 
+email_id.addEventListener('click',(e) =>{
+  hidden_form.classList.add('d-block');
+  hidden_form.style.display = "block";
+})
