@@ -7408,6 +7408,18 @@ span {
     background-color: #832121;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.curibility__btn-1 {
+  border-radius: .3rem;
+  background-color: brown;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  transition: all .2s; }
+  .curibility__btn-1:hover {
+    background-color: #832121;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
 .online__treatment {
   text-decoration: none;
   color: chocolate;
