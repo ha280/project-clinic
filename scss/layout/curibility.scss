@@ -12,6 +12,11 @@
         display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     }
+    &__test-1{
+        overflow: scroll;
+        height: 100%;
+        font-size: 1.2rem;
+    }
 }
 .exp__1{
     text-decoration: none;

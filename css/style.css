@@ -7287,6 +7287,11 @@ span {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; }
 
+.curability__test-1 {
+  overflow: scroll;
+  height: 100%;
+  font-size: 1.2rem; }
+
 .exp__1 {
   text-decoration: none;
   list-style: none;
@@ -7530,6 +7535,11 @@ span {
   box-shadow: 0 0 5px rgba(50, 50, 50, 0.05) !important; }
   .home-select:hover {
     outline: none; }
+
+.option_box {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; }
 
 .search__icon {
   height: 2rem;
