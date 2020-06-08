@@ -1,8 +1,5 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
-@import "abstract/_function";
-@import "abstract/_mixin";
-
 @import "base/_animation";
 @import "base/_base";
 @import "base/topography";
@@ -12,10 +9,10 @@
 @import "layout/case_study";
 @import "layout/curibility";
 @import "layout/_footer";
-@import "layout/popup";
+@import "layout/header";
+
 
 @import "component/_btn";
-@import "component/navigation";
 @import "component/_form";
 @import "component/icon";
 @import "component/images";
