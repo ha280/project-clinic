@@ -19,6 +19,10 @@
   width: 150%;
   height: 80vh;
 }
+.carousel-inner-1 img {
+  width: 150%;
+  height: 50vh;
+}
 .font-b{
   font-size: 1.6rem;
 }
@@ -45,11 +49,20 @@
   left: 40%;
   right: 0%;
 }
+.caption-not__1{
+  top: 40%;
+  transform: translate(-50%,-50%);
+  left: 40%;
+  right: 0%;
+}
 .form-control{
   width: 75%;
 }
 .w-30{
   width: 30%;
+}
+.w-65{
+  width: 65%;
 }
 .w-40{
   width: 40%;

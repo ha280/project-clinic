@@ -7,3 +7,10 @@
 .loginimg{
     width: 14rem;
 }
+.Maploc{
+    background-image: url('https://maps.googleapis.com/maps/api/staticmap?scale=1&size=1600x900&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visibility:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=en-GB&region=IN&markers=color:0xdb5e5e|28.6269971,77.2800593&zoom=16&client=google-presto&signature=BT6vXmaloDuPIZkOEBPQ6zl2jmo');    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80rem;
+    width: 90rem;
+    padding: 5rem 0;
+}

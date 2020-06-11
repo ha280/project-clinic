@@ -7172,7 +7172,7 @@ body {
 .contain {
   display: grid;
   grid-template-columns: [sidebar-start] 16rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 12rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
-  grid-template-rows: 80vh max-content max-content 37vw  60vw min-content max-content max-content max-content; }
+  grid-template-rows: max-content max-content max-content max-content  max-content min-content max-content max-content max-content; }
 
 .intro__main {
   color: #fff;
@@ -7630,6 +7630,14 @@ span {
 .loginimg {
   width: 14rem; }
 
+.Maploc {
+  background-image: url("https://maps.googleapis.com/maps/api/staticmap?scale=1&size=1600x900&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visibility:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=en-GB&region=IN&markers=color:0xdb5e5e|28.6269971,77.2800593&zoom=16&client=google-presto&signature=BT6vXmaloDuPIZkOEBPQ6zl2jmo");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 80rem;
+  width: 90rem;
+  padding: 5rem 0; }
+
 .header {
   grid-column: 1 / 2;
   grid-row: 1 / -1;
@@ -7650,7 +7658,6 @@ span {
 
 .section-ask {
   padding-top: 2rem;
-  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.6), rgba(86, 67, 250, 0.6));
   grid-row: 2 / 3;
   grid-column: 2 / -1; }
 
@@ -7683,8 +7690,7 @@ span {
 .section__research {
   grid-row: 8 / 9;
   grid-column: 2 / -1;
-  padding-bottom: 10rem;
-  padding-top: 5rem; }
+  padding-bottom: 10rem; }
 
 .patient__signin {
   background-color: white;
@@ -7717,6 +7723,10 @@ span {
   width: 150%;
   height: 80vh; }
 
+.carousel-inner-1 img {
+  width: 150%;
+  height: 50vh; }
+
 .font-b {
   font-size: 1.6rem; }
 
@@ -7741,11 +7751,20 @@ span {
   left: 40%;
   right: 0%; }
 
+.caption-not__1 {
+  top: 40%;
+  transform: translate(-50%, -50%);
+  left: 40%;
+  right: 0%; }
+
 .form-control {
   width: 75%; }
 
 .w-30 {
   width: 30%; }
+
+.w-65 {
+  width: 65%; }
 
 .w-40 {
   width: 40%; }
