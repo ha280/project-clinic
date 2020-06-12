@@ -91,3 +91,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.color_gradi-1{
+  background-image: linear-gradient(to right bottom,rgba(#2998ff,.6),rgba(#5643fa,.6));
+}
