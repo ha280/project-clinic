@@ -7564,14 +7564,16 @@ span {
   left: 0;
   z-index: 1;
   font-size: 1.4rem;
-  outline: 0; }
+  outline: 0;
+  transition: border 0.3s,top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+  border-bottom: 1px solid transparent; }
   .go-bottom input:valid, .go-bottom textarea:valid {
     background: white; }
   .go-bottom input:focus, .go-bottom textarea:focus {
     border-bottom: 1px solid #f06d06; }
   .go-bottom input:focus + label, .go-bottom textarea:focus + label {
     color: black;
-    font-size: 70%;
+    font-size: 90%;
     padding: 1px 6px;
     z-index: 10;
     text-transform: uppercase; }
