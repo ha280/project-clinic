@@ -11,6 +11,9 @@
 	margin-bottom: 1.5rem;
 	font-size: 3.5rem;
 	font-weight: bold;
+	color: transparent;
+	background-image: linear-gradient(to right,$color-blue-light,$color-blue-dark);
+	-webkit-background-clip: text;
 }
 span {
 	color: $color-orange;
@@ -41,7 +44,8 @@ span {
 .paragraph-1{
 	text-align: center;
 	font-size: 1.5rem;
-	font-weight: 800;
+	font-weight: 600;
+	letter-spacing: .1rem;
 }
 .paragraph-2{
 	font-size: 1.5rem;

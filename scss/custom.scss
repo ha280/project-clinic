@@ -1,7 +1,7 @@
 .dropdown:hover .dropdown-menu-2 {
     display: block !important;
   }
-  .bg-green-light{background-color: $color-green-light;}
+  .bg-green-grad{background-image: linear-gradient(to right,$color-Light-green,$color-Dark-green);}
   .font-m{
     font-size: 1.4rem;
 }

@@ -7186,7 +7186,10 @@ body {
   text-decoration: bold;
   margin-bottom: 1.5rem;
   font-size: 3.5rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: transparent;
+  background-image: linear-gradient(to right, #2998ff, #5643fa);
+  -webkit-background-clip: text; }
 
 span {
   color: #7e440d; }
@@ -7216,7 +7219,8 @@ span {
 .paragraph-1 {
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 800; }
+  font-weight: 600;
+  letter-spacing: .1rem; }
 
 .paragraph-2 {
   font-size: 1.5rem;
@@ -7346,7 +7350,7 @@ span {
   height: 100%;
   width: 3px;
   transform: scaleY(0);
-  background-color: #75f87c;
+  background-image: linear-gradient(to right, #7ed56f, #28b384);
   transform-origin: bottom;
   transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s; }
 
@@ -7355,7 +7359,7 @@ span {
   width: 100%; }
 
 .nav__green {
-  background-color: #75f87c;
+  background-color: #7ed56f;
   color: #fff;
   text-decoration: none;
   font-size: 1.4rem;
@@ -7500,6 +7504,15 @@ span {
   color: white; }
   .btn__red-1:hover {
     color: white; }
+
+.btn_blue {
+  text-decoration: underline;
+  color: #0e8bff; }
+  .btn_blue:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #0e8bff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); }
 
 .form {
   text-align: center; }
@@ -7752,7 +7765,7 @@ span {
 .section__research {
   grid-row: 8 / 9;
   grid-column: 2 / -1;
-  padding-bottom: 10rem; }
+  padding-bottom: 2rem; }
 
 .patient__signin {
   background-color: white;
@@ -7765,8 +7778,8 @@ span {
 .dropdown:hover .dropdown-menu-2 {
   display: block !important; }
 
-.bg-green-light {
-  background-color: #75f87c; }
+.bg-green-grad {
+  background-image: linear-gradient(to right, #7ed56f, #28b384); }
 
 .font-m {
   font-size: 1.4rem; }

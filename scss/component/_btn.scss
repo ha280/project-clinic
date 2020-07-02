@@ -91,3 +91,13 @@
 		color: white;
 	}
 }
+.btn_blue{
+	text-decoration: underline;
+	color: #0e8bff;
+	&:hover{
+		color: white;
+		text-decoration: none;
+		background-color: #0e8bff;
+		box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+	}
+}

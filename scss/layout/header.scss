@@ -22,7 +22,7 @@
 		height: 100%;
 		width: 3px;
 		transform: scaleY(0);
-		background-color: $color-green-light;
+		background-image: linear-gradient(to right,$color-Light-green,$color-Dark-green);
 		transform-origin: bottom;
 		transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s;
 	}	
@@ -34,7 +34,7 @@
 }
 
 .nav__green{
-	background-color: $color-green-light;
+	background-color: $color-Light-green;
 	color: #fff;
 	text-decoration: none;
 	font-size: 1.4rem;
