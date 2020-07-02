@@ -7269,10 +7269,23 @@ span {
 .case__study,
 .patient__say {
   box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.2);
-  padding: 0 1rem; }
+  padding: 0 1rem;
+  height: 30rem;
+  width: 40rem;
+  background-color: #cccccc; }
 
 .case__btn {
   align-items: center; }
+
+.case__studies__btn {
+  margin: 0 auto 0 auto; }
+
+.case__patient {
+  justify-content: space-evenly; }
+
+.case__head-1,
+.patient__head-1 {
+  margin: 0 auto 0 auto; }
 
 .curability__exp {
   display: flex;
@@ -7465,7 +7478,7 @@ span {
   padding: 1rem 2rem;
   transition: all .2s; }
   .curibility__btn-1:hover {
-    background-color: #832121;
+    background-color: #ff7575;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .online__treatment {
@@ -7553,46 +7566,46 @@ span {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr; }
 
-.go-bottom > div {
-  position: relative; }
-
-.go-bottom input, .go-bottom textarea {
-  width: 90%;
-  background: none;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  font-size: 1.4rem;
-  outline: 0;
-  transition: border 0.3s,top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
-  border-bottom: 1px solid transparent; }
-  .go-bottom input:valid, .go-bottom textarea:valid {
-    background: white; }
-  .go-bottom input:focus, .go-bottom textarea:focus {
-    border-bottom: 1px solid #f06d06; }
-  .go-bottom input:focus + label, .go-bottom textarea:focus + label {
-    color: black;
-    font-size: 90%;
-    padding: 1px 6px;
-    z-index: 10;
-    text-transform: uppercase; }
-
-.go-bottom label {
-  font-size: 1.4rem;
-  transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
-  position: absolute;
-  color: #999;
-  padding: 7px 6px; }
-
-.go-bottom textarea {
-  display: block;
-  resize: vertical; }
+.go-bottom {
+  text-align: center; }
+  .go-bottom > div {
+    position: relative; }
+  .go-bottom input, .go-bottom textarea {
+    width: 50%;
+    background: none;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 1.4rem;
+    outline: 0;
+    transition: border 0.3s,top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+    border-bottom: 1px solid transparent; }
+    .go-bottom input:valid, .go-bottom textarea:valid {
+      background: white; }
+    .go-bottom input:focus, .go-bottom textarea:focus {
+      border-bottom: 1px solid #f06d06; }
+    .go-bottom input:focus + label, .go-bottom textarea:focus + label {
+      color: black;
+      font-size: 90%;
+      padding: 1px 6px;
+      z-index: 10;
+      text-transform: uppercase; }
+  .go-bottom label {
+    font-size: 1.4rem;
+    transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+    position: absolute;
+    color: #999;
+    padding: 7px 6px; }
+  .go-bottom textarea {
+    display: block;
+    resize: vertical; }
 
 .go-bottom label {
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translate(-72%, 0);
   width: 100%; }
 
 .go-bottom input:focus, .go-bottom textarea:focus {
@@ -7842,3 +7855,6 @@ span {
 
 .color_gradi-1 {
   background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.6), rgba(86, 67, 250, 0.6)); }
+
+.bg-brown {
+  background-color: #a16328 !important; }

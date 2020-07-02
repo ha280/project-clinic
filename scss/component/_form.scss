@@ -77,11 +77,12 @@
     grid-template-columns: 1fr 1fr;
 }
 .go-bottom{
+  text-align: center;
     > div {
       position: relative;
     }
     input, textarea {
-      width: 90%;
+      width: 50%;
       background: none;
       position: relative;
       bottom: 0;
@@ -136,7 +137,8 @@
     label {
       top: 0;
       bottom: 0;
-      left: 0;
+      left: 50%;
+      transform: translate(-72%,0);
       width: 100%;
     }
     input:focus, textarea:focus {

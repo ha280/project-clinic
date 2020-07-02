@@ -2,7 +2,21 @@
 .patient__say{
     box-shadow: 0rem 1rem 1rem rgba($color-black ,.2);
     padding: 0 1rem;
+    height: 30rem;
+    width: 40rem;
+    background-color: rgb(204, 204, 204);
 }
 .case__btn{
     align-items: center;
+}
+.case__studies__btn{
+    margin: 0 auto 0 auto;
+
+}
+.case__patient{
+    justify-content: space-evenly;
+}
+.case__head-1,
+.patient__head-1{
+    margin: 0 auto 0 auto;
 }
