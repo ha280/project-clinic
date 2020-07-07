@@ -7188,7 +7188,7 @@ body {
   font-size: 3.5rem;
   font-weight: bold;
   color: transparent;
-  background-image: linear-gradient(to right, #2998ff, #5643fa);
+  background-image: linear-gradient(to right, #7ed56f, #28b384);
   -webkit-background-clip: text; }
 
 span {
@@ -7507,11 +7507,11 @@ span {
 
 .btn_blue {
   text-decoration: underline;
-  color: #0e8bff; }
+  color: #28b384; }
   .btn_blue:hover {
     color: white;
     text-decoration: none;
-    background-color: #0e8bff;
+    background-color: #7ed56f;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); }
 
 .form {
@@ -7808,7 +7808,7 @@ span {
 .intro__1 {
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(to right bottom, rgba(86, 67, 250, 0.8), rgba(0, 0, 0, 0.8)), url(../css/img/medicine.jpg); }
+  background-image: linear-gradient(to right, rgba(85, 197, 122, 0.7), rgba(40, 179, 132, 0.7)), url(../css/img/medicine.jpg); }
 
 .intro__2 {
   background-size: cover;

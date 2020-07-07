@@ -93,11 +93,11 @@
 }
 .btn_blue{
 	text-decoration: underline;
-	color: #0e8bff;
+	color:  $color-Dark-green;
 	&:hover{
 		color: white;
 		text-decoration: none;
-		background-color: #0e8bff;
+		background-color: $color-Light-green;
 		box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 	}
 }
