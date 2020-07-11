@@ -7291,6 +7291,27 @@ span {
 .patient__head-1 {
   margin: 0 auto 0 auto; }
 
+.patient__photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; }
+
+.size-img {
+  width: 25rem;
+  height: 15rem;
+  background-color: #000;
+  overflow: hidden; }
+
+.size-img img {
+  opacity: 0.7;
+  width: 100%;
+  transform: scale(1.15);
+  height: 100%; }
+  .size-img img:hover {
+    transform: scale(1.08);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 1; }
+
 .curability__exp {
   display: flex;
   justify-content: space-between; }
@@ -7320,7 +7341,7 @@ span {
 .footer {
   background-color: #000;
   grid-column: full-start / full-end;
-  padding: 8rem; }
+  padding: 2rem 0 0rem 8rem; }
 
 .copyright {
   font-size: 1.4rem;
@@ -7758,14 +7779,15 @@ span {
   grid-column: 3 / -1; }
 
 .section__patient__photo {
-  justify-content: space-around;
-  grid-row: 7 / 8;
+  justify-content: space-between;
+  margin: 2rem 0;
+  grid-row: 8 / 9;
   grid-column: 3 / -2; }
 
 .section__research {
-  grid-row: 8 / 9;
+  grid-row: 7 / 8;
   grid-column: 2 / -1;
-  padding-bottom: 2rem; }
+  margin: 1rem 0; }
 
 .patient__signin {
   background-color: white;

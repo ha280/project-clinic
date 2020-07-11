@@ -20,3 +20,26 @@
 .patient__head-1{
     margin: 0 auto 0 auto;
 }
+.patient__photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.size-img{
+    width: 25rem;
+    height: 15rem;
+    background-color: #000;
+    overflow: hidden;
+}
+.size-img img {
+    opacity: 0.7;
+    width: 100%;
+    transform: scale(1.15);
+    height: 100%;
+    &:hover{
+        transform: scale(1.08);
+        transition: transform 0.5s, opacity 0.5s;
+        opacity: 1;
+    }
+}
