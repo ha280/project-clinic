@@ -102,3 +102,12 @@
         display: block;
     }
 }
+.dropdown-menu-2{
+    &>*{
+        &:hover{
+            background-color: $color-Medium-green;
+            color: white;
+        }
+        
+    }
+}

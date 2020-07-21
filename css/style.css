@@ -7336,7 +7336,10 @@ span {
   font-size: 1.3rem;
   line-height: 5rem;
   padding: 0 2rem;
-  color: black; }
+  color: black;
+  transition: border .3s; }
+  .exp__1:hover {
+    border: 2px solid #7ed56f; }
 
 .footer {
   background-color: #000;
@@ -7442,6 +7445,10 @@ span {
 .popup-2:hover {
   display: block; }
 
+.dropdown-menu-2 > *:hover {
+  background-color: #55c57a;
+  color: white; }
+
 .btn-red {
   text-decoration: none;
   color: white;
@@ -7528,7 +7535,8 @@ span {
 
 .btn_blue {
   text-decoration: underline;
-  color: #28b384; }
+  color: #28b384;
+  transition: all .2s; }
   .btn_blue:hover {
     color: white;
     text-decoration: none;

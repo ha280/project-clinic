@@ -25,6 +25,9 @@
     line-height: 5rem;
     padding: 0 2rem;
     color: black;
-    
+    transition: border .3s;
+    &:hover{
+        border: 2px solid $color-Light-green;
+    }
 }
 
