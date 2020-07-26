@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	   <link rel="stylesheet" type="text/css" href="../css/style.css">
+	   <script type="text/javascript" src="file:///F:/cs/html/bookstrap/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+	   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<title>Take Appointment</title>
+    </head>
+    <body class="contain">
+		
+		<%- include('partials/header') %>
+
+        <section class="section-intro">
+			<div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+				<div class="carousel-inner-1">
+				  <div class="carousel-item intro intro__1 active">
+					<img src="" class="" alt="" >
+					<div class="caption-not__1 text-left carousel-caption  ">
+						<h2 class="heading__secoundry">Homeopathy is also strongly indicated for many uncommon, difficult diseases such as:</h2>
+						<p class="paragraph">Hydrastis adenitis, Epidermolysis Bullosa, Hailey Hailey Disease, Prurigo Nodularis, Urticaria Pigmentosa, Carpel Tunnel Syndrome, Pulmonary Fibrosis (ILD), etc.</p>
+						<a class="btn btn-outline-light font-m bor-r-100p " href="#">Read more...</a>
+					</div>
+				  </div>
+				</div>
+			</div>	
+		</section>
+        <section class="section-ask">
+			<h1>Patient Appointment</h1>
+            <form class="go-bottom">
+                <div class="my-5 mx-4">
+					<input id="FullName" type="text" name="Full Name" required >
+					<label  for="FullName">Full Name</label>
+				</div>
+				
+            	<div class="my-5 mx-4">
+					<input type="text" name="email id" id="email_id" required>
+                 	<label  for="e-mail id">e-mail id</label>
+				</div>
+				<div class="my-5 mx-4">
+					<input type="text" name="mobile no." id="mobile no." required>
+					<label  for="Mobile no.">Mobile no.</label>
+			   </div>
+			   <div class="my-5 mx-4 row">
+					<div class="col mx-4">
+						<input type="text" name="City" id="City" required>
+						<label  class="mx-4" for="City">City</label>
+					</div>
+					<div class="col mx-4">
+						<input type="text" name="state" id="state" required>
+						<label  class="mx-4" for="state">state</label>
+					</div>
+			   </div>
+			</form>
+			<form action="">
+				<div class="my-5 mx-4 row text-center">
+					<h2>Patient:</h2>
+					 <div class="py-1 mr-4 ml-3">
+						 <input type="radio" class="radio" name="cur_question_answer" value="385" id="questionid184">
+						 <label for="questionid184"><span></span>New</label>
+					 </div>
+					 <div class="py-1">
+						 <input type="radio" class="radio" name="cur_question_answer" value="385" id="questionid184">
+						 <label for="questionid184"><span></span>Registered</label>
+					 </div>
+				 
+				</div>
+				<div class="my-5 mx-4 row">
+				 <div class="col mx-4">
+					 <input type="date" name="SelectDate" id="SelectDate" required>
+					 <label class="mx-4" for="SelectDate"></label>
+				 </div>
+				 <div class="col mx-4">
+					 <input type="time" name="selectTime" id="selectTime" required>
+					 <label class="mx-4" for="selectTime"></label>
+				 </div>
+				</div>
+			</form>
+			<a href="#" id="submit" class="btn">Submit</a>
+			<a href="./patientAppointment.html" id="Cancel" class="btn">Cancel</a>
+			<p>
+				WB1, 1st Floor,Shakarpur, New Delhi,
+				Delhi 110092 
+			</p>
+			<p>Phone: +91-9811022908 Email: dr_neerajgupta@gmail.com</p>
+			<p>Clinic hours:<br>
+				Monday-Saturday: 6:00PM to 9:30PM
+				Sunday: 11:00AM to 2:30PM</p>
+        </section>
+        <footer class="footer p-0 text-center">
+            <p class="blockquote-footer font-s">
+                &copy; Copyright 2020 by Dr. Neeraj gupta .All rights reserved. | Sitemap
+            </p>
+		</footer>    
+    </body>

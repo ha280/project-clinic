@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	   <link rel="stylesheet" type="text/css" href="../css/style.css">
+	   <script type="text/javascript" src="file:///F:/cs/html/bookstrap/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+	   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<title>Take Appointment</title>
+    </head>
+    <body class="contain">
+        <%- include('partials/header') %>
+
+        <section class="section__online__treatment py-4 mt-4">
+            <div class="online__head mt-4 ">
+                <h1 class="heading__primary">Order Treatment Online</h1>
+                <h3 class="h3 text-center">Get treated by the pioneer of Online treatment, who was first to start Online Medical
+                     practice in 1995. In a few clicks from now, you can get started with the journey to 
+                     recovery.
+                </h3>
+                <div class="online__btn text-center">
+                    <a href="#" class="online__treatment">Learn More...</a>
+                </div>
+                <div class="treatment text-center mb-3">
+                    <img src="../css/img/order-treatment-label.png" alt="" class="online__img">
+                </div>
+            </div>
+            <div class="form__online text-center mt-3">
+                <div class="container text-center w-75 my-4 bg-light pr-0 pl-1">
+                    <div class="disease__list text-left">
+                        <ul class=" list-unstyled font-b">
+                            
+                            <li>
+                                <input id="33" type="checkbox" name="code" class="diseases" >
+                                <label for="33">
+                                    <span></span>Acne</label>
+                                <br>
+                                <label id="patients-33" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-33" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="1" type="checkbox" name="code" class="diseases">
+                                <label for="1">
+                                    <span></span>Alopecia Areata</label>
+                                <br>
+                                <label id="patients-1" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-1" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="3" type="checkbox" name="code" class="diseases" >
+                                <label for="3">
+                                    <span></span>Ankylosing Spondylitis</label>
+                                <br>
+                                <label id="patients-3" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-3" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="2" type="checkbox" name="code" class="diseases" >
+                                <label for="2">
+                                    <span></span>Anxiety Neurosis</label>
+                                <br>
+                                <label id="patients-2" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-2" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="4" type="checkbox" name="code" class="diseases" for="4">
+                                    <span></span>Asthma</label>
+                                <br>
+                                <label id="patients-4" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-4" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="5" type="checkbox" name="code" class="diseases">
+                                <label for="5">
+                                    <span></span>Atopic Dermatitis</label>
+                                <br>
+                                <label id="patients-5" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-5" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="32" type="checkbox" name="code" class="diseases" >
+                                <label for="32">
+                                    <span></span>Autism</label>
+                                <br>
+                                <label id="patients-32" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-32" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="34" type="checkbox" name="code" class="diseases" >
+                                <label for="34">
+                                    <span></span>Backache</label>
+                                <br>
+                                <label id="patients-34" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-34" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="35" type="checkbox" name="code" class="diseases" >
+                                <label for="35">
+                                    <span></span>Bep-Benign Enlargemement Of Prostate</label>
+                                <br>
+                                <label id="patients-35" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-35" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="36" type="checkbox" name="code" class="diseases" >
+                                <label for="36">
+                                    <span></span>Calcanean Spur</label>
+                                <br>
+                                <label id="patients-36" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-36" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="37" type="checkbox" name="code" class="diseases" >
+                                <label for="37">
+                                    <span></span>Cancer</label>
+                                <br>
+                                <label id="patients-37" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-37" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="7" type="checkbox" name="code" class="diseases" >
+                                <label for="7">
+                                    <span></span>Cervical Spondylitis</label>
+                                <br>
+                                <label id="patients-7" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-7" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="8" type="checkbox" name="code" class="diseases">
+                                <label for="8">
+                                    <span></span>Chalazion</label>
+                                <br>
+                                <label id="patients-8" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-8" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="6" type="checkbox" name="code" class="diseases" >
+                                <label for="6">
+                                    <span></span>Child Asthma</label>
+                                <br>
+                                <label id="patients-6" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-6" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="38" type="checkbox" name="code" class="diseases">
+                                <label for="38">
+                                    <span></span>Constipation</label>
+                                <br>
+                                <label id="patients-38" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-38" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="39" type="checkbox" name="code" class="diseases" >
+                                <label for="39">
+                                    <span></span>Depression</label>
+                                <br>
+                                <label id="patients-39" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-39" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="9" type="checkbox" name="code" class="diseases" >
+                                <label for="9">
+                                    <span></span>Eczema</label>
+                                <br>
+                                <label id="patients-9" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-9" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="40" type="checkbox" name="code" class="diseases" >
+                                <label for="40">
+                                    <span></span>Erectile Dysfunction</label>
+                                <br>
+                                <label id="patients-40" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-40" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="10" type="checkbox" name="code" class="diseases" >
+                                <label for="10">
+                                    <span></span>Fissure-In-Ano</label>
+                                <br>
+                                <label id="patients-10" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-10" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="11" type="checkbox" name="code" class="diseases">
+                                <label for="11">
+                                    <span></span>Frequent Colds</label>
+                                <br>
+                                <label id="patients-11" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-11" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="13" type="checkbox" name="code" class="diseases" >
+                                <label for="13">
+                                    <span></span>GERD</label>
+                                <br>
+                                <label id="patients-13" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-13" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="41" type="checkbox" name="code" class="diseases">
+                                <label for="41">
+                                    <span></span>Hailey Hailey Disease</label>
+                                <br>
+                                <label id="patients-41" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-14" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="14" type="checkbox" name="code" class="diseases">
+                                <label for="14">
+                                    <span></span>Hair Falling</label>
+                                <br>
+                                <label id="patients-14" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-14" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="42" type="checkbox" name="code" class="diseases" >
+                                <label for="42">
+                                    <span></span>Hepatitis B</label>
+                                <br>
+                                <label id="patients-42" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-42" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="15" type="checkbox" name="code" class="diseases" >
+                                <label for="15">
+                                    <span></span>Hepatitis C</label>
+                                <br>
+                                <label id="patients-15" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-15" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="51" type="checkbox" name="code" class="diseases" >
+                                <label for="51"><span></span>Herpes</label>
+                                <br>
+                                <label id="patients-151" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                                <input value="1" name="patients-51" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="31" type="checkbox" name="code" class="diseases" >
+                                <label for="31">
+                                    <span></span>H.I.V.</label>
+                                <br>
+                                <label id="patients-31" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-31" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="43" type="checkbox" name="code" class="diseases" >
+                                <label for="43">
+                                    <span></span>Hyperpigmentation</label>
+                                <br>
+                                <label id="patients-43" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-43" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="16" type="checkbox" name="code" class="diseases" >
+                                <label for="16">
+                                    <span></span>IBS</label>
+                                <br>
+                                <label id="patients-16" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-16" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="17" type="checkbox" name="17" class="diseases">
+                                <label for="17">
+                                    <span></span>Lichen Planus</label>
+                                <br>
+                                <label id="patients-17" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-17" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="44" type="checkbox" name="17" class="diseases" >
+                                <label for="44">
+                                    <span></span>Lichen Planus Pigmentosa (LPP)</label>
+                                <br>
+                                <label id="patients-44" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-44" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="18" type="checkbox" name="code" class="diseases" >
+                                <label for="18">
+                                    <span></span>Migraine</label>
+                                <br>
+                                <label id="patients-18" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-18" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="19" type="checkbox" name="code" class="diseases" >
+                                <label for="19">
+                                    <span></span>Nephrotic Syndrome</label>
+                                <br>
+                                <label id="patients-19" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-19" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="45" type="checkbox" name="code" class="diseases" >
+                                <label for="45">
+                                    <span></span>Osteoarthritis</label>
+                                <br>
+                                <label id="patients-45" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-45" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="46" type="checkbox" name="code" class="diseases">
+                                <label for="46">
+                                    <span></span>Piles</label>
+                                <br>
+                                <label id="patients-46" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-46" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="21" type="checkbox" name="code" class="diseases">
+                                <label for="21">
+                                    <span></span>Prostatitis</label>
+                                <br>
+                                <label id="patients-21" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-21" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="22" type="checkbox" name="code" class="diseases" >
+                                <label for="22">
+                                    <span></span>Psoriasis</label>
+                                <br>
+                                <label id="patients-22" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-22" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="20" type="checkbox" name="code" class="diseases" >
+                                <label for="20">
+                                    <span></span>Psoriatic Arthritis</label>
+                                <br>
+                                <label id="patients-20" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-20" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="47" type="checkbox" name="code" class="diseases" >
+                                <label for="47">
+                                    <span></span>Rheumatoid Arthritis</label>
+                                <br>
+                                <label id="patients-47" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-47" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="24" type="checkbox" name="code" class="diseases" >
+                                <label for="24">
+                                    <span></span>Sleeplessness</label>
+                                <br>
+                                <label id="patients-24" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-24" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="48" type="checkbox" name="code" class="diseases" >
+                                <label for="48">
+                                    <span></span>Tenia</label>
+                                <br>
+                                <label id="patients-48" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-48" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="26" type="checkbox" name="code" class="diseases" >
+                                <label for="26">
+                                    <span></span>Tonsillitis</label>
+                                <br>
+                                <label id="patients-26" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-26" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="27" type="checkbox" name="code" class="diseases" >
+                                <label for="27">
+                                    <span></span>Trigeminal Neuralgia</label>
+                                <br>
+                                <label id="patients-27" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-27" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="28" type="checkbox" name="code" class="diseases">
+                                <label for="28">
+                                    <span></span>Ulcerative Colitis</label>
+                                <br>
+                                <label id="patients-28" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-28" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="25" type="checkbox" name="code" class="diseases" >
+                                <label for="25">
+                                    <span></span>Underactive Thyroid</label>
+                                <br>
+                                <label id="patients-25" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-25" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="29" type="checkbox" name="code" class="diseases" >
+                                <label for="29">
+                                    <span></span>Urticaria</label>
+                                <br>
+                                <label id="patients-29" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-29" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="30" type="checkbox" name="code" class="diseases" >
+                                <label for="30">
+                                    <span></span>Vitiligo</label>
+                                <br>
+                                <label id="patients-30" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-30" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="49" type="checkbox" name="code" class="diseases" >
+                                <label for="49">
+                                    <span></span>Warts</label>
+                                <br>
+                                <label id="patients-49" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-49" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="50" type="checkbox" name="code" class="diseases" >
+                                <label for="50">
+                                    <span></span>Writers Cramp (Dystonia)</label>
+                                <br>
+                                <label id="patients-50" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-50" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                            <li>
+                                <input id="12" type="checkbox" name="code" class="diseases" value="http://www.e-homoeopathy.com">
+                                <label for="12">
+                                    <span></span>General - Not Listed Above</label>
+                                <br>
+                                <label id="patients-12" style="display: none; color: gray" class="black">
+                                    No. of Patients:
+                            <input value="1" name="patients-12" class="patients" style="width: 25px; text-align: center">
+                                </label>
+                            </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+                    <select name="Countries" id="name" class="custom-select-lg w-75 my-3" onchange="random()">
+                      <option>Select Country or Region</option>
+                      <option>USA ,Canada</option>
+                      <option>Europe,Australia</option>
+                      <option>Asia,Africa,S.America</option>
+                      <option>India</option>
+                    </select>
+                    <div id="output" class="">
+                        <select class="custom-select-lg w-75 my-3">
+                            <option>-- Select a term---</option>
+                          </select>
+                    </div>
+    
+                <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="radio" name="cur_question_answer" value="385" id="questionid184">
+                    <label for="questionid184"><span></span>Credit Card</label>
+                    <input type="radio" class="radio" name="cur_question_answer" value="385" id="questionid184">
+                    <label for="questionid184"><span></span>payPal</label>
+                </div>
+                <a href="#" class="btn text-uppercase w-75 text-center btn-warning font-b">start my treatment</a>
+            </div>
+        </section>
+
+        <footer class="footer p-0 text-center bg-brown " style="background-color: rgb(175, 124, 29);">
+            <p class="blockquote-footer font-s text-light">
+                &copy; Copyright 2020 by Dr. Neeraj gupta .All rights reserved. | Sitemap
+            </p>
+		</footer>    
+    </body>

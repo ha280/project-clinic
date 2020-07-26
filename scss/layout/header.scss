@@ -92,8 +92,7 @@
         background-image: linear-gradient(rgba(250, 150, 20,1),rgba(155, 90, 4,1));
         clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 21% 76%, 18% 82%, 14% 75%, 0 75%);
 		border: 2px solid rgb(231, 231, 231);
-        box-shadow: 0rem 1rem 1rem rgba($color-black ,.2);
-        
+        box-shadow: 0rem 1rem 1rem rgba($color-black ,.2);   
     }
     &-1:focus + &-2{
         display: block;
@@ -108,6 +107,5 @@
             background-color: $color-Medium-green;
             color: white;
         }
-        
     }
 }
