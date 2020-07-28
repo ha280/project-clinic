@@ -1,7 +1,7 @@
 {
   "name": "harsh",
   "version": "1.0.0",
-  "description": "Landing page for trillo",
+  "description": "Landing page for GCHC",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass scss/main.scss css/style.css",

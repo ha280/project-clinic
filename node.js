@@ -10,6 +10,10 @@ app.get('/', function(req,res){
     //// res.send('You requested to see profile' + req.params.id);
     res.render('index',{qs: req.query} );
  });
+ app.get('/home', function(req,res){
+    //// res.send('You requested to see profile' + req.params.id);
+    res.render('index',{qs: req.query} );
+ });
  app.get('/onlineTreatment', function(req,res){
     //// res.send('You requested to see profile' + req.params.id);
      res.render('onlineTreatment',{qs: req.query} );
@@ -18,9 +22,8 @@ app.get('/', function(req,res){
     //// res.send('You requested to see profile' + req.params.id);
      res.render('contact',{qs: req.query} );
  });
- app.post('/patientAppointment', urlencodedParser, function (req, res) {
-    console.log(req.body);
-    res.render('patientAppointment',{data: req.body} );
+ app.post('/patientAppointment', function (req, res) {
+    res.render('patientAppointment',{qs: req.query} );
 
 })
 
