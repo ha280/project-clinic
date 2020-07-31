@@ -26,5 +26,3 @@ app.get('/', function(req,res){
     res.render('patientAppointment',{qs: req.query} );
 
 })
-
-app.listen(3000);
